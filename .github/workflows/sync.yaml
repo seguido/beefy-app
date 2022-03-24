@@ -1,0 +1,15 @@
+name: Sync
+
+on: 
+  push
+    branches:
+      - 'prod'
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: .github/workflows/
+        with:
+          GITHUB_TOKEN: ${{ secrets.REPO_TOKEN }}
