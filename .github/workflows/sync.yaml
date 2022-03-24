@@ -1,7 +1,7 @@
 name: Sync
 
 on: 
-  push
+  push:
     branches:
       - 'prod'
 
