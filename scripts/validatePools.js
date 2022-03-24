@@ -20,6 +20,14 @@ const overrides = {
   'beltv2-4belt': { vaultOwner: undefined }, // moonpot deployer
   'cronos-bifi-maxi': { beefyFeeRecipient: undefined }, // 0x0
   'metis-bifi-maxi': { beefyFeeRecipient: undefined }, // 0x0
+  'aurora-bifi-maxi': { beefyFeeRecipient: undefined }, // 0x0
+  'fuse-bifi-maxi': { beefyFeeRecipient: undefined }, // 0x0
+  'moonbeam-bifi-maxi': { beefyFeeRecipient: undefined }, // 0x0
+
+  // TODO delete
+  'kyber-usdc-jeur': { keeper: undefined, stratOwner: undefined }, // 0x0
+  'kyber-usdc-jgbp': { keeper: undefined, stratOwner: undefined }, // 0x0
+  'kyber-usdc-jchf': { keeper: undefined, stratOwner: undefined }, // 0x0
 };
 
 const oldValidOwners = [
@@ -105,6 +113,18 @@ const validatePools = async () => {
           : 1;
       }
 
+      if (!pool.createdAt) {
+        console.error(
+          `Error: ${pool.id} : Pool createdAt timestamp missing - required for UI: vault sorting`
+        );
+        exitCode = 1;
+      } else if (isNaN(pool.createdAt)) {
+        console.error(
+          `Error: ${pool.id} : Pool createdAt timestamp wrong type, should be a number`
+        );
+        exitCode = 1;
+      }
+
       addressFields.forEach(field => {
         if (pool.hasOwnProperty(field) && !isValidChecksumAddress(pool[field])) {
           const maybeValid = maybeChecksumAddress(pool[field]);
@@ -171,7 +191,7 @@ const validatePools = async () => {
 
 // Validation helpers. These only log for now, could throw error if desired.
 const isKeeperCorrect = (pool, chain, chainKeeper, updates) => {
-  if (pool.keeper !== undefined && pool.keeper !== chainKeeper) {
+  if (pool.status !== 'eol' && pool.keeper !== undefined && pool.keeper !== chainKeeper) {
     console.log(`Pool ${pool.id} should update keeper. From: ${pool.keeper} To: ${chainKeeper}`);
 
     if (!('keeper' in updates)) updates['keeper'] = {};

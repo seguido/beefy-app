@@ -423,6 +423,8 @@ export const getNetworkStables = () => {
         'JPYC',
         'jCAD',
         'CADC',
+        'jSGD',
+        'XSGD',
       ];
     case 250:
       return [
@@ -438,6 +440,7 @@ export const getNetworkStables = () => {
         'UST',
         'asUSDC',
         'LAMBDA',
+        'DEI',
       ];
     case 1666600000:
       return ['BUSD', 'bscBUSD', 'USDC', 'USDT', 'UST', 'DAI', 'FRAX'];
@@ -455,7 +458,7 @@ export const getNetworkStables = () => {
       return ['fUSD', 'BUSD', 'USDC'];
     case 1088:
       return ['mUSDT', 'mUSDC'];
-    case 1088:
+    case 1284:
       return ['USDC', 'USDT', 'DAI', 'BUSD'];
     default:
       return [];

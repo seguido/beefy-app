@@ -1,0 +1,12 @@
+name: 'Sync CI'
+description: 'Sync v1 vault/assets/addressbook onto v2 Beefy app'
+author: 'chebiN'
+
+inputs:
+  GITHUB_TOKEN:
+    description: 'Github token'
+    required: true
+
+runs:
+  using: 'node16'
+  main: 'actions/dist/index.js'

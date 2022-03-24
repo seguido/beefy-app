@@ -32,7 +32,532 @@ export const avalanchePools = [
     withdrawalFee: '0.05%',
     buyTokenUrl:
       'https://www.traderjoexyz.com/trade?outputCurrency=0xd6070ae98b8069de6b494332d1a1a81b6179d960',
+    createdAt: 1629307105,
   },
+  {
+    id: 'curve-avax-atricrypto',
+    logo: 'uncategorized/ATRICRYPTO.png',
+    name: 'aTriCrypto',
+    token: 'crvUSDBTCETH',
+    tokenDescription: 'Curve',
+    tokenAddress: '0x1daB6560494B04473A0BE3E7D83CF3Fdf3a51828',
+    tokenDecimals: 18,
+    tokenDescriptionUrl: '#',
+    earnedToken: 'mooCurveTriCrypto',
+    earnedTokenAddress: '0xe1a8EeA58D63Ea64d00365531D266C2AD1f62FC4',
+    earnContractAddress: '0xe1a8EeA58D63Ea64d00365531D266C2AD1f62FC4',
+    pricePerFullShare: 1,
+    tvl: 0,
+    oracle: 'lps',
+    oracleId: 'curve-avax-atricrypto',
+    oraclePrice: 0,
+    depositsPaused: false,
+    status: 'active',
+    platform: 'Curve',
+    assets: ['DAIe', 'USDCe', 'USDTe', 'WBTCe', 'WETHe'],
+    risks: [
+      'COMPLEXITY_LOW',
+      'BATTLE_TESTED',
+      'IL_LOW',
+      'MCAP_LARGE',
+      'AUDIT',
+      'CONTRACTS_VERIFIED',
+    ],
+    stratType: 'StratMultiLP',
+    withdrawalFee: '0.01%',
+    addLiquidityUrl: 'https://avax.curve.fi/atricrypto/deposit',
+    createdAt: 1634113377,
+  },
+  {
+    id: 'joe-deg-wavax',
+    name: 'DEG-AVAX LP',
+    token: 'DEG-AVAX JLP',
+    tokenDescription: 'Trader Joe',
+    tokenAddress: '0x465460F46969F2bf969432956491dEE95A6ba493',
+    tokenDecimals: 18,
+    tokenDescriptionUrl: '#',
+    earnedToken: 'mooJoeDEG-AVAX',
+    earnedTokenAddress: '0xB1298261e5C5219B93181f8EA45dD5D50A8e2E56',
+    earnContractAddress: '0xB1298261e5C5219B93181f8EA45dD5D50A8e2E56',
+    pricePerFullShare: 1,
+    tvl: 0,
+    oracle: 'lps',
+    oracleId: 'joe-deg-wavax',
+    oraclePrice: 0,
+    depositsPaused: false,
+    status: 'active',
+    platform: 'Trader Joe',
+    assets: ['DEG', 'AVAX'],
+    risks: [
+      'COMPLEXITY_LOW',
+      'BATTLE_TESTED',
+      'IL_HIGH',
+      'MCAP_MICRO',
+      'PLATFORM_ESTABLISHED',
+      'CONTRACTS_VERIFIED',
+    ],
+    stratType: 'StratLP',
+    addLiquidityUrl:
+      'https://traderjoexyz.com/pool/0x9f285507Ea5B4F33822CA7aBb5EC8953ce37A645/AVAX#/',
+    buyTokenUrl:
+      'https://traderjoexyz.com/trade?outputCurrency=0x9f285507Ea5B4F33822CA7aBb5EC8953ce37A645',
+    createdAt: 1647256112,
+  },
+  {
+    id: 'joe-joe',
+    logo: 'single-assets/JOE.png',
+    name: 'JOE',
+    token: 'JOE',
+    tokenDescription: 'Trader Joe (sJoe)',
+    tokenAddress: '0x6e84a6216eA6dACC71eE8E6b0a5B7322EEbC0fDd',
+    tokenDecimals: 18,
+    tokenDescriptionUrl: '#',
+    earnedToken: 'mooJoe',
+    earnedTokenAddress: '0x282B11E65f0B49363D4505F91c7A44fBEe6bCc0b',
+    earnContractAddress: '0x282B11E65f0B49363D4505F91c7A44fBEe6bCc0b',
+    pricePerFullShare: 1,
+    tvl: 0,
+    oracle: 'tokens',
+    oracleId: 'JOE',
+    oraclePrice: 0,
+    depositsPaused: false,
+    status: 'active',
+    platform: 'Trader Joe',
+    assets: ['JOE'],
+    risks: [
+      'COMPLEXITY_LOW',
+      'BATTLE_TESTED',
+      'IL_NONE',
+      'MCAP_MEDIUM',
+      'PLATFORM_ESTABLISHED',
+      'CONTRACTS_VERIFIED',
+    ],
+    stratType: 'SingleStake',
+    buyTokenUrl:
+      'https://traderjoexyz.com/trade?outputCurrency=0x6e84a6216eA6dACC71eE8E6b0a5B7322EEbC0fDd',
+    createdAt: 1631011023,
+  },
+  {
+    id: 'joe-wavax-usdc',
+    name: 'USDC-AVAX LP',
+    token: 'USDC-AVAX JLP',
+    tokenDescription: 'Trader Joe',
+    tokenAddress: '0xf4003F4efBE8691B60249E6afbD307aBE7758adb',
+    tokenDecimals: 18,
+    tokenDescriptionUrl: '#',
+    earnedToken: 'mooJoeUSDC-AVAX',
+    earnedTokenAddress: '0x7E5bC7088aB3Da3e7fa1Aa7ceF1dC73F5B00681c',
+    earnContractAddress: '0x7E5bC7088aB3Da3e7fa1Aa7ceF1dC73F5B00681c',
+    pricePerFullShare: 1,
+    tvl: 0,
+    oracle: 'lps',
+    oracleId: 'joe-wavax-usdc',
+    oraclePrice: 0,
+    depositsPaused: false,
+    status: 'active',
+    platform: 'Trader Joe',
+    assets: ['USDC', 'AVAX'],
+    risks: [
+      'COMPLEXITY_LOW',
+      'BATTLE_TESTED',
+      'IL_LOW',
+      'MCAP_LARGE',
+      'PLATFORM_ESTABLISHED',
+      'CONTRACTS_VERIFIED',
+    ],
+    stratType: 'StratLP',
+    addLiquidityUrl:
+      'https://traderjoexyz.com/pool/AVAX/0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E',
+    buyTokenUrl:
+      'https://traderjoexyz.com/trade?outputCurrency=0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E',
+    createdAt: 1646426309,
+  },
+  {
+    id: 'joe-wavax-vtx',
+    name: 'VTX-AVAX LP',
+    token: 'VTX-AVAX JLP',
+    tokenDescription: 'Trader Joe',
+    tokenAddress: '0x9EF0C12b787F90F59cBBE0b611B82D30CAB92929',
+    tokenDecimals: 18,
+    tokenDescriptionUrl: '#',
+    earnedToken: 'mooJoeVTX-AVAX',
+    earnedTokenAddress: '0x9710755f5E6Ea9bd149800ec1901982b93beEf25',
+    earnContractAddress: '0x9710755f5E6Ea9bd149800ec1901982b93beEf25',
+    pricePerFullShare: 1,
+    tvl: 0,
+    oracle: 'lps',
+    oracleId: 'joe-wavax-vtx',
+    oraclePrice: 0,
+    depositsPaused: false,
+    status: 'active',
+    platform: 'Trader Joe',
+    assets: ['VTX', 'AVAX'],
+    risks: [
+      'COMPLEXITY_LOW',
+      'BATTLE_TESTED',
+      'IL_HIGH',
+      'MCAP_MICRO',
+      'PLATFORM_ESTABLISHED',
+      'CONTRACTS_VERIFIED',
+    ],
+    stratType: 'StratLP',
+    addLiquidityUrl:
+      'https://traderjoexyz.com/pool/AVAX/0x5817D4F0b62A59b17f75207DA1848C2cE75e7AF4',
+    buyTokenUrl:
+      'https://traderjoexyz.com/trade?outputCurrency=0x5817D4F0b62A59b17f75207DA1848C2cE75e7AF4',
+    createdAt: 1646470439,
+  },
+  {
+    id: 'joe-wavax-ecd',
+    name: 'ECD-AVAX LP',
+    token: 'ECD-AVAX JLP',
+    tokenDescription: 'Trader Joe',
+    tokenAddress: '0x218e6A0AD170460F93eA784FbcC92B57DF13316E',
+    tokenDecimals: 18,
+    tokenDescriptionUrl: '#',
+    earnedToken: 'mooJoeAVAX-ECD',
+    earnedTokenAddress: '0x4C7cF6eE7AFa810028099C2D1d97c6AB33540412',
+    earnContractAddress: '0x4C7cF6eE7AFa810028099C2D1d97c6AB33540412',
+    pricePerFullShare: 1,
+    tvl: 0,
+    oracle: 'lps',
+    oracleId: 'joe-wavax-ecd',
+    oraclePrice: 0,
+    depositsPaused: false,
+    status: 'active',
+    platform: 'Trader Joe',
+    assets: ['ECD', 'AVAX'],
+    risks: [
+      'COMPLEXITY_LOW',
+      'BATTLE_TESTED',
+      'IL_HIGH',
+      'MCAP_MICRO',
+      'PLATFORM_ESTABLISHED',
+      'CONTRACTS_VERIFIED',
+    ],
+    stratType: 'StratLP',
+    addLiquidityUrl:
+      'https://traderjoexyz.com/pool/AVAX/0xeb8343D5284CaEc921F035207ca94DB6BAaaCBcd',
+    buyTokenUrl:
+      'https://traderjoexyz.com/trade?outputCurrency=0xeb8343D5284CaEc921F035207ca94DB6BAaaCBcd',
+    createdAt: 1646470439,
+  },
+  {
+    id: 'joe-egg-wavax',
+    name: 'EGG-AVAX JLP',
+    token: 'EGG-AVAX JLP',
+    tokenDescription: 'Trader Joe',
+    tokenAddress: '0x3052a75dfD7A9D9B0F81E510E01d3Fe80A9e7ec7',
+    tokenDecimals: 18,
+    tokenDescriptionUrl: '#',
+    earnedToken: 'mooJoeEGG-AVAX',
+    earnedTokenAddress: '0x491E09Eb736c0c4CD85DF694A22D1C0dec8c4C25',
+    earnContractAddress: '0x491E09Eb736c0c4CD85DF694A22D1C0dec8c4C25',
+    pricePerFullShare: 1,
+    tvl: 0,
+    oracle: 'lps',
+    oracleId: 'joe-egg-wavax',
+    oraclePrice: 0,
+    depositsPaused: false,
+    status: 'active',
+    platform: 'Trader Joe',
+    assets: ['EGG', 'AVAX'],
+    risks: [
+      'COMPLEXITY_LOW',
+      'BATTLE_TESTED',
+      'IL_HIGH',
+      'MCAP_MICRO',
+      'PLATFORM_ESTABLISHED',
+      'CONTRACTS_VERIFIED',
+    ],
+    stratType: 'StratLP',
+    withdrawalFee: '0%',
+    addLiquidityUrl:
+      'https://traderjoexyz.com/pool/0x7761E2338B35bCEB6BdA6ce477EF012bde7aE611/AVAX#/',
+    buyTokenUrl:
+      'https://traderjoexyz.com/trade?outputCurrency=0x7761e2338b35bceb6bda6ce477ef012bde7ae611',
+    createdAt: 1646787205,
+  },
+  {
+    id: 'png-usdc.e-usdc',
+    name: 'USDC-USDC.e LP',
+    token: 'USDC-USDC.e LP',
+    tokenDescription: 'Pangolin',
+    tokenAddress: '0x8a9c36BC3CEd5ECce703A4dA8032218Dfe72fE86',
+    tokenDecimals: 18,
+    tokenDescriptionUrl: '#',
+    earnedToken: 'mooPangolinUSDC.e-USDC',
+    earnedTokenAddress: '0x99C719c26C64A371be84bAF0821fA89a1FEd459a',
+    earnContractAddress: '0x99C719c26C64A371be84bAF0821fA89a1FEd459a',
+    pricePerFullShare: 1,
+    tvl: 0,
+    oracle: 'lps',
+    oracleId: 'png-usdc.e-usdc',
+    oraclePrice: 0,
+    depositsPaused: false,
+    status: 'active',
+    platform: 'Pangolin',
+    assets: ['USDC', 'USDCe'],
+    risks: [
+      'COMPLEXITY_LOW',
+      'BATTLE_TESTED',
+      'IL_NONE',
+      'MCAP_LARGE',
+      'PLATFORM_ESTABLISHED',
+      'CONTRACTS_VERIFIED',
+    ],
+    stratType: 'StratLP',
+    addLiquidityUrl:
+      'https://app.pangolin.exchange/#/add/0xA7D7079b0FEaD91F3e65f86E8915Cb59c1a4C664/0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E',
+    buyTokenUrl:
+      'https://app.pangolin.exchange/#/swap?inputCurrency=0xA7D7079b0FEaD91F3e65f86E8915Cb59c1a4C664&outputCurrency=0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E',
+    createdAt: 1646973680,
+  },
+  {
+    id: 'png-wavax-spell',
+    name: 'SPELL-AVAX LP',
+    token: 'SPELL-AVAX LP',
+    tokenDescription: 'Pangolin',
+    tokenAddress: '0xD4CBC976E1a1A2bf6F4FeA86DEB3308d68638211',
+    tokenDecimals: 18,
+    tokenDescriptionUrl: '#',
+    earnedToken: 'mooPangolinSPELL-WAVAX',
+    earnedTokenAddress: '0x87a1525566A367F2a986ca15A09D8cA50f539C03',
+    earnContractAddress: '0x87a1525566A367F2a986ca15A09D8cA50f539C03',
+    pricePerFullShare: 1,
+    tvl: 0,
+    oracle: 'lps',
+    oracleId: 'png-wavax-spell',
+    oraclePrice: 0,
+    depositsPaused: false,
+    status: 'active',
+    platform: 'Pangolin',
+    assets: ['SPELL', 'AVAX'],
+    risks: [
+      'COMPLEXITY_LOW',
+      'BATTLE_TESTED',
+      'IL_HIGH',
+      'MCAP_MEDIUM',
+      'PLATFORM_ESTABLISHED',
+      'CONTRACTS_VERIFIED',
+    ],
+    addLiquidityUrl:
+      'https://app.pangolin.exchange/#/add/AVAX/0xCE1bFFBD5374Dac86a2893119683F4911a2F7814',
+    buyTokenUrl:
+      'https://app.pangolin.exchange/#/swap?outputCurrency=0xCE1bFFBD5374Dac86a2893119683F4911a2F7814',
+    createdAt: 1646976330,
+  },
+  {
+    id: 'png-wavax-usdc',
+    name: 'USDC-AVAX LP',
+    token: 'USDC-AVAX LP',
+    tokenDescription: 'Pangolin',
+    tokenAddress: '0x0e0100Ab771E9288e0Aa97e11557E6654C3a9665',
+    tokenDecimals: 18,
+    tokenDescriptionUrl: '#',
+    earnedToken: 'mooPangolinUSDC-WAVAX',
+    earnedTokenAddress: '0xf3340EdF16563D52C7E7C576F2fCC8f3D52464aB',
+    earnContractAddress: '0xf3340EdF16563D52C7E7C576F2fCC8f3D52464aB',
+    pricePerFullShare: 1,
+    tvl: 0,
+    oracle: 'lps',
+    oracleId: 'png-wavax-usdc',
+    oraclePrice: 0,
+    depositsPaused: false,
+    status: 'active',
+    platform: 'Pangolin',
+    assets: ['USDC', 'AVAX'],
+    risks: [
+      'COMPLEXITY_LOW',
+      'BATTLE_TESTED',
+      'IL_LOW',
+      'MCAP_LARGE',
+      'PLATFORM_ESTABLISHED',
+      'CONTRACTS_VERIFIED',
+    ],
+    addLiquidityUrl:
+      'https://app.pangolin.exchange/#/add/AVAX/0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E',
+    buyTokenUrl:
+      'https://app.pangolin.exchange/#/swap?outputCurrency=0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E',
+    createdAt: 1647003159,
+  },
+  {
+    id: 'png-wavax-ime',
+    name: 'IME-AVAX LP',
+    token: 'IME-AVAX LP',
+    tokenDescription: 'Pangolin',
+    tokenAddress: '0xB6eE4A02F1fa523559B9Abb54C50dF3011911fe9',
+    tokenDecimals: 18,
+    tokenDescriptionUrl: '#',
+    earnedToken: 'mooPangolinIME-WAVAX',
+    earnedTokenAddress: '0xcDD3542A7A741409d5c6F8aD487ebf39964992ED',
+    earnContractAddress: '0xcDD3542A7A741409d5c6F8aD487ebf39964992ED',
+    pricePerFullShare: 1,
+    tvl: 0,
+    oracle: 'lps',
+    oracleId: 'png-wavax-ime',
+    oraclePrice: 0,
+    depositsPaused: false,
+    status: 'active',
+    platform: 'Pangolin',
+    assets: ['IME', 'AVAX'],
+    risks: [
+      'COMPLEXITY_LOW',
+      'BATTLE_TESTED',
+      'IL_HIGH',
+      'MCAP_SMALL',
+      'PLATFORM_ESTABLISHED',
+      'CONTRACTS_VERIFIED',
+    ],
+    addLiquidityUrl:
+      'https://app.pangolin.exchange/#/add/AVAX/0xF891214fdcF9cDaa5fdC42369eE4F27F226AdaD6',
+    buyTokenUrl:
+      'https://app.pangolin.exchange/#/swap?outputCurrency=0xF891214fdcF9cDaa5fdC42369eE4F27F226AdaD6',
+    createdAt: 1647002201,
+  },
+  {
+    id: 'joe-joe-usdc',
+    name: 'JOE-USDC LP',
+    token: 'JOE-USDC LP',
+    tokenDescription: 'Trader Joe',
+    tokenAddress: '0x3bc40d4307cD946157447CD55d70ee7495bA6140',
+    tokenDecimals: 18,
+    tokenDescriptionUrl: '#',
+    earnedToken: 'mooJoeJOE-USDC',
+    earnedTokenAddress: '0x909C9EF8E634C2bc6719d960146Bb38F20f6a547',
+    earnContractAddress: '0x909C9EF8E634C2bc6719d960146Bb38F20f6a547',
+    pricePerFullShare: 1,
+    tvl: 0,
+    oracle: 'lps',
+    oracleId: 'joe-joe-usdc',
+    oraclePrice: 0,
+    depositsPaused: false,
+    status: 'active',
+    platform: 'Trader Joe',
+    assets: ['JOE', 'USDC'],
+    risks: [
+      'COMPLEXITY_LOW',
+      'BATTLE_TESTED',
+      'IL_HIGH',
+      'MCAP_MEDIUM',
+      'PLATFORM_ESTABLISHED',
+      'CONTRACTS_VERIFIED',
+    ],
+    stratType: 'StratLP',
+    addLiquidityUrl:
+      'https://traderjoexyz.com/pool/0x6e84a6216ea6dacc71ee8e6b0a5b7322eebc0fdd/0xb97ef9ef8734c71904d8002f8b6bc66dd9c48a6e',
+    buyTokenUrl:
+      'https://traderjoexyz.com/trade?inputCurrency=0xb97ef9ef8734c71904d8002f8b6bc66dd9c48a6e&outputCurrency=0x6e84a6216ea6dacc71ee8e6b0a5b7322eebc0fdd',
+    createdAt: 1646825243,
+  },
+  {
+    id: 'joe-wavax-fief',
+    name: 'FIEF-AVAX LP',
+    token: 'FIEF-AVAX JLP',
+    tokenDescription: 'Trader Joe',
+    tokenAddress: '0x939D6eD8a0f7FC90436BA6842D7372250a03fA7c',
+    tokenDecimals: 18,
+    tokenDescriptionUrl: '#',
+    earnedToken: 'mooJoeAVAX-FIEF',
+    earnedTokenAddress: '0x87267285Bd7990B05950703f7bA6b24dF88aa302',
+    earnContractAddress: '0x87267285Bd7990B05950703f7bA6b24dF88aa302',
+    pricePerFullShare: 1,
+    tvl: 0,
+    oracle: 'lps',
+    oracleId: 'joe-wavax-fief',
+    oraclePrice: 0,
+    depositsPaused: false,
+    status: 'active',
+    platform: 'Trader Joe',
+    assets: ['FIEF', 'AVAX'],
+    risks: [
+      'COMPLEXITY_LOW',
+      'BATTLE_TESTED',
+      'IL_HIGH',
+      'MCAP_MICRO',
+      'PLATFORM_ESTABLISHED',
+      'CONTRACTS_VERIFIED',
+    ],
+    stratType: 'StratLP',
+    addLiquidityUrl:
+      'https://traderjoexyz.com/pool/0xeA068Fba19CE95f12d252aD8Cb2939225C4Ea02D/AVAX',
+    buyTokenUrl:
+      'https://traderjoexyz.com/trade?outputCurrency=0xeA068Fba19CE95f12d252aD8Cb2939225C4Ea02D',
+    createdAt: 1646148122,
+  },
+  {
+    id: 'ripae-pavax-wavax',
+    name: 'pAVAX-AVAX LP',
+    token: 'pAVAX-AVAX LP',
+    tokenDescription: 'TraderJoe (Ripae)',
+    tokenAddress: '0x1179E6AF2794fA9d39316951e868772F96230375',
+    tokenDecimals: 18,
+    tokenDescriptionUrl: '#',
+    earnedToken: 'mooRipaepAVAX-AVAX',
+    earnedTokenAddress: '0xD78d5464690544F5D838dAEF0D7650fA03c64598',
+    earnContractAddress: '0xD78d5464690544F5D838dAEF0D7650fA03c64598',
+    pricePerFullShare: 1,
+    tvl: 0,
+    oracle: 'lps',
+    oracleId: 'ripae-pavax-wavax',
+    oraclePrice: 0,
+    depositsPaused: false,
+    status: 'active',
+    platform: 'Ripae',
+    assets: ['pAVAX', 'AVAX'],
+    risks: [
+      'COMPLEXITY_LOW',
+      'BATTLE_TESTED',
+      'IL_LOW',
+      'MCAP_MICRO',
+      'AUDIT',
+      'CONTRACTS_VERIFIED',
+    ],
+    stratType: 'StratLP',
+    withdrawalFee: '0%',
+    addLiquidityUrl:
+      'https://traderjoexyz.com/pool/AVAX/0x6ca558bd3eaB53DA1B25aB97916dd14bf6CFEe4E',
+    buyTokenUrl:
+      'https://traderjoexyz.com/trade?outputCurrency=0x6ca558bd3eaB53DA1B25aB97916dd14bf6CFEe4E',
+    createdAt: 1646045101,
+  },
+  {
+    id: 'ripae-pae-wavax',
+    name: 'PAE-AVAX LP',
+    token: 'PAE-AVAX LP',
+    tokenDescription: 'TraderJoe (Ripae)',
+    tokenAddress: '0x6139361Ccd4f40abF3d5D22AA3b72A195010F9AB',
+    tokenDecimals: 18,
+    tokenDescriptionUrl: '#',
+    earnedToken: 'mooRipaePAE-AVAX',
+    earnedTokenAddress: '0x2c0E2Ec5C2C84346497cc82F5afF72f8A29dA835',
+    earnContractAddress: '0x2c0E2Ec5C2C84346497cc82F5afF72f8A29dA835',
+    pricePerFullShare: 1,
+    tvl: 0,
+    oracle: 'lps',
+    oracleId: 'ripae-pae-wavax',
+    oraclePrice: 0,
+    depositsPaused: false,
+    status: 'active',
+    platform: 'Ripae',
+    assets: ['PAE', 'AVAX'],
+    risks: [
+      'COMPLEXITY_LOW',
+      'BATTLE_TESTED',
+      'IL_HIGH',
+      'MCAP_MICRO',
+      'AUDIT',
+      'CONTRACTS_VERIFIED',
+    ],
+    stratType: 'StratLP',
+    withdrawalFee: '0%',
+    addLiquidityUrl:
+      'https://traderjoexyz.com/pool/AVAX/0x9466Ab927611725B9AF76b9F31B2F879Ff14233d',
+    buyTokenUrl:
+      'https://traderjoexyz.com/trade?outputCurrency=0x9466Ab927611725B9AF76b9F31B2F879Ff14233d',
+    createdAt: 1646045101,
+  },
+
   {
     id: 'aave-wavax',
     logo: 'single-assets/AVAX.svg',
@@ -66,6 +591,252 @@ export const avalanchePools = [
     stratType: 'Lending',
     buyTokenUrl:
       'https://www.traderjoexyz.com/trade?outputCurrency=0xB31f66AA3C1e785363F0875A1B74E27b85FD66c7',
+    createdAt: 1633521927,
+  },
+  {
+    id: 'png-acre-wavax',
+    name: 'ACRE-AVAX LP',
+    token: 'ACRE-AVAX LP',
+    tokenDescription: 'Pangolin',
+    tokenAddress: '0x64694FC8dFCA286bF1A15b0903FAC98217dC3AD7',
+    tokenDecimals: 18,
+    tokenDescriptionUrl: '#',
+    earnedToken: 'mooPangolinV2ACRE-AVAX',
+    earnedTokenAddress: '0xB6aE1f6Be8575a44D22af3cD2C5385CC9c293978',
+    earnContractAddress: '0xB6aE1f6Be8575a44D22af3cD2C5385CC9c293978',
+    pricePerFullShare: 1,
+    tvl: 0,
+    oracle: 'lps',
+    oracleId: 'png-acre-wavax',
+    oraclePrice: 0,
+    depositsPaused: false,
+    status: 'active',
+    platform: 'Pangolin',
+    assets: ['ACRE', 'AVAX'],
+    risks: [
+      'COMPLEXITY_LOW',
+      'BATTLE_TESTED',
+      'IL_HIGH',
+      'MCAP_MICRO',
+      'PLATFORM_ESTABLISHED',
+      'CONTRACTS_VERIFIED',
+    ],
+    stratType: 'StratLP',
+    addLiquidityUrl:
+      'https://app.pangolin.exchange/#/add/AVAX/0x00EE200Df31b869a321B10400Da10b561F3ee60d',
+    buyTokenUrl:
+      'https://app.pangolin.exchange/#/swap?outputCurrency=0x00EE200Df31b869a321B10400Da10b561F3ee60d',
+    createdAt: 1645887882,
+  },
+  {
+    id: 'png-bribe-wavax-eol',
+    name: 'BRIBE-AVAX LP',
+    token: 'BRIBE-AVAX LP',
+    tokenDescription: 'Pangolin',
+    tokenAddress: '0x7472887De3B0aA65168a1Da22164C81DE5fd4044',
+    tokenDecimals: 18,
+    tokenDescriptionUrl: '#',
+    earnedToken: 'mooPangolinV2BRIBE-AVAX',
+    earnedTokenAddress: '0xbaCeC852971EB461DA6Ad8F5C2e37694dca56002',
+    earnContractAddress: '0xbaCeC852971EB461DA6Ad8F5C2e37694dca56002',
+    pricePerFullShare: 1,
+    tvl: 0,
+    oracle: 'lps',
+    oracleId: 'png-bribe-wavax',
+    oraclePrice: 0,
+    depositsPaused: true,
+    status: 'eol',
+    retireReason: 'rewards',
+    platform: 'Pangolin',
+    assets: ['BRIBE', 'AVAX'],
+    risks: [
+      'COMPLEXITY_LOW',
+      'BATTLE_TESTED',
+      'IL_HIGH',
+      'MCAP_MICRO',
+      'PLATFORM_ESTABLISHED',
+      'CONTRACTS_VERIFIED',
+    ],
+    stratType: 'StratLP',
+    addLiquidityUrl:
+      'https://app.pangolin.exchange/#/add/AVAX/ 0xCe2fbed816E320258161CeD52c2d0CEBcdFd8136',
+    buyTokenUrl:
+      'https://app.pangolin.exchange/#/swap?outputCurrency=0xCe2fbed816E320258161CeD52c2d0CEBcdFd8136',
+    createdAt: 1645972427,
+  },
+  {
+    id: 'png-tus-wavax',
+    name: 'TUS-AVAX LP',
+    token: 'TUS-AVAX LP',
+    tokenDescription: 'Pangolin',
+    tokenAddress: '0xbCEd3B6D759B9CA8Fc7706E46Aa81627b2e9EAE8',
+    tokenDecimals: 18,
+    tokenDescriptionUrl: '#',
+    earnedToken: 'mooPangolinV2TUS-AVAX',
+    earnedTokenAddress: '0xEd7208d44f5cC209DE534461a5D5b3cf60fDdeE5',
+    earnContractAddress: '0xEd7208d44f5cC209DE534461a5D5b3cf60fDdeE5',
+    pricePerFullShare: 1,
+    tvl: 0,
+    oracle: 'lps',
+    oracleId: 'png-tus-wavax',
+    oraclePrice: 0,
+    depositsPaused: false,
+    status: 'active',
+    platform: 'Pangolin',
+    assets: ['TUS', 'AVAX'],
+    risks: [
+      'COMPLEXITY_LOW',
+      'BATTLE_TESTED',
+      'IL_HIGH',
+      'MCAP_MICRO',
+      'PLATFORM_ESTABLISHED',
+      'CONTRACTS_VERIFIED',
+    ],
+    stratType: 'StratLP',
+    addLiquidityUrl:
+      'https://app.pangolin.exchange/#/add/AVAX/0xf693248F96Fe03422FEa95aC0aFbBBc4a8FdD172',
+    buyTokenUrl:
+      'https://app.pangolin.exchange/#/swap?outputCurrency=0xf693248F96Fe03422FEa95aC0aFbBBc4a8FdD172',
+    createdAt: 1645972427,
+  },
+  {
+    id: 'png-fire-wavax',
+    name: 'FIRE-AVAX LP',
+    token: 'FIRE-AVAX LP',
+    tokenDescription: 'Pangolin',
+    tokenAddress: '0x45324950c6ba08112EbF72754004a66a0a2b7721',
+    tokenDecimals: 18,
+    tokenDescriptionUrl: '#',
+    earnedToken: 'mooPangolinV2FIRE-AVAX',
+    earnedTokenAddress: '0xcd1f50DFfbC44F5eeFBA2ae6a19dE8196B51427a',
+    earnContractAddress: '0xcd1f50DFfbC44F5eeFBA2ae6a19dE8196B51427a',
+    pricePerFullShare: 1,
+    tvl: 0,
+    oracle: 'lps',
+    oracleId: 'png-fire-wavax',
+    oraclePrice: 0,
+    depositsPaused: false,
+    status: 'active',
+    platform: 'Pangolin',
+    assets: ['FIRE', 'AVAX'],
+    risks: [
+      'COMPLEXITY_LOW',
+      'BATTLE_TESTED',
+      'IL_HIGH',
+      'MCAP_MICRO',
+      'PLATFORM_ESTABLISHED',
+      'CONTRACTS_VERIFIED',
+    ],
+    stratType: 'StratLP',
+    addLiquidityUrl:
+      'https://app.pangolin.exchange/#/add/AVAX/0xfcc6CE74f4cd7eDEF0C5429bB99d38A3608043a5',
+    buyTokenUrl:
+      'https://app.pangolin.exchange/#/swap?outputCurrency=0xfcc6CE74f4cd7eDEF0C5429bB99d38A3608043a5',
+    createdAt: 1645197575,
+  },
+  {
+    id: 'curve-avax-ren',
+    logo: 'single-assets/renBTC.png',
+    name: 'WBTC/renBTC',
+    token: 'btcCRV',
+    tokenDescription: 'Curve',
+    tokenAddress: '0xC2b1DF84112619D190193E48148000e3990Bf627',
+    tokenDecimals: 18,
+    tokenDescriptionUrl: '#',
+    earnedToken: 'mooCurveRen',
+    earnedTokenAddress: '0xD437ba91922f7e0066C780cC17f175708Fd7b736',
+    earnContractAddress: '0xD437ba91922f7e0066C780cC17f175708Fd7b736',
+    pricePerFullShare: 1,
+    tvl: 0,
+    oracle: 'lps',
+    oracleId: 'curve-avax-ren',
+    oraclePrice: 0,
+    depositsPaused: false,
+    status: 'active',
+    platform: 'Curve',
+    assets: ['WBTC', 'renBTC'],
+    risks: [
+      'COMPLEXITY_LOW',
+      'BATTLE_TESTED',
+      'IL_NONE',
+      'MCAP_LARGE',
+      'AUDIT',
+      'CONTRACTS_VERIFIED',
+    ],
+    stratType: 'StratLP',
+    withdrawalFee: '0.01%',
+    addLiquidityUrl: 'https://avax.curve.fi/ren/deposit',
+    createdAt: 1645435034,
+  },
+  {
+    id: 'joe-wavax-savax',
+    name: 'sAVAX-AVAX LP',
+    token: 'sAVAX-AVAX JLP',
+    tokenDescription: 'Trader Joe',
+    tokenAddress: '0x4b946c91C2B1a7d7C40FB3C130CdfBaf8389094d',
+    tokenDecimals: 18,
+    tokenDescriptionUrl: '#',
+    earnedToken: 'mooJoeAVAX-sAVAX',
+    earnedTokenAddress: '0x37a51D57958386E52f6d7D7d08ACb381abDA9157',
+    earnContractAddress: '0x37a51D57958386E52f6d7D7d08ACb381abDA9157',
+    pricePerFullShare: 1,
+    tvl: 0,
+    oracle: 'lps',
+    oracleId: 'joe-wavax-savax',
+    oraclePrice: 0,
+    depositsPaused: false,
+    status: 'active',
+    platform: 'Trader Joe',
+    assets: ['sAVAX', 'AVAX'],
+    risks: [
+      'COMPLEXITY_LOW',
+      'BATTLE_TESTED',
+      'IL_LOW',
+      'MCAP_MEDIUM',
+      'PLATFORM_ESTABLISHED',
+      'CONTRACTS_VERIFIED',
+    ],
+    stratType: 'StratLP',
+    addLiquidityUrl:
+      'https://traderjoexyz.com/pool/0x2b2C81e08f1Af8835a78Bb2A90AE924ACE0eA4bE/AVAX',
+    buyTokenUrl:
+      'https://traderjoexyz.com/trade?outputCurrency=0x2b2C81e08f1Af8835a78Bb2A90AE924ACE0eA4bE',
+    createdAt: 1645036500,
+  },
+  {
+    id: 'png-luna-wavax',
+    name: 'LUNA-AVAX LP',
+    token: 'LUNA-AVAX LP',
+    tokenDescription: 'Pangolin',
+    tokenAddress: '0x40e747f27E6398b1f7C017c5ff5c31a2Ab69261c',
+    tokenDecimals: 18,
+    tokenDescriptionUrl: '#',
+    earnedToken: 'mooPangolinV2LUNA-AVAX',
+    earnedTokenAddress: '0x5508222678C5337e76D93A3005dC008056715655',
+    earnContractAddress: '0x5508222678C5337e76D93A3005dC008056715655',
+    pricePerFullShare: 1,
+    tvl: 0,
+    oracle: 'lps',
+    oracleId: 'png-luna-wavax',
+    oraclePrice: 0,
+    depositsPaused: false,
+    status: 'active',
+    platform: 'Pangolin',
+    assets: ['LUNA', 'AVAX'],
+    risks: [
+      'COMPLEXITY_LOW',
+      'BATTLE_TESTED',
+      'IL_LOW',
+      'MCAP_LARGE',
+      'PLATFORM_ESTABLISHED',
+      'CONTRACTS_VERIFIED',
+    ],
+    stratType: 'StratLP',
+    addLiquidityUrl:
+      'https://app.pangolin.exchange/#/add/AVAX/0x120AD3e5A7c796349e591F1570D9f7980F4eA9cb',
+    buyTokenUrl:
+      'https://app.pangolin.exchange/#/swap?outputCurrency=0x120AD3e5A7c796349e591F1570D9f7980F4eA9cb',
+    createdAt: 1644484239,
   },
   {
     id: 'joe-wavax-domi',
@@ -86,7 +857,7 @@ export const avalanchePools = [
     depositsPaused: false,
     status: 'active',
     platform: 'Trader Joe',
-    assets: ['AVAX', 'DOMI'],
+    assets: ['DOMI', 'AVAX'],
     risks: [
       'COMPLEXITY_LOW',
       'BATTLE_TESTED',
@@ -100,6 +871,7 @@ export const avalanchePools = [
       'https://traderjoexyz.com/pool/0xFc6Da929c031162841370af240dEc19099861d3B/AVAX',
     buyTokenUrl:
       'https://traderjoexyz.com/trade?outputCurrency=0xFc6Da929c031162841370af240dEc19099861d3B',
+    createdAt: 1644407428,
   },
   {
     id: 'joe-wavax-ime',
@@ -134,9 +906,10 @@ export const avalanchePools = [
       'https://traderjoexyz.com/pool/AVAX/0xf891214fdcf9cdaa5fdc42369ee4f27f226adad6',
     buyTokenUrl:
       'https://traderjoexyz.com/trade?outputCurrency=0xF891214fdcF9cDaa5fdC42369eE4F27F226AdaD6#/',
+    createdAt: 1643668967,
   },
   {
-    id: 'joe-wavax-pefi2',
+    id: 'joe-wavax-pefi2-eol',
     name: 'PEFI-AVAX LP',
     token: 'PEFI-AVAX JLP',
     tokenDescription: 'Trader Joe',
@@ -151,8 +924,9 @@ export const avalanchePools = [
     oracle: 'lps',
     oracleId: 'joe-wavax-pefi2',
     oraclePrice: 0,
-    depositsPaused: false,
-    status: 'active',
+    depositsPaused: true,
+    status: 'eol',
+    retireReason: 'rewards',
     platform: 'Trader Joe',
     assets: ['PEFI', 'AVAX'],
     risks: [
@@ -168,9 +942,10 @@ export const avalanchePools = [
       'https://traderjoexyz.com/pool/AVAX/0xe896cdeaac9615145c0ca09c8cd5c25bced6384c',
     buyTokenUrl:
       'https://traderjoexyz.com/trade?outputCurrency=0xe896CDeaAC9615145c0cA09C8Cd5C25bced6384c',
+    createdAt: 1643975170,
   },
   {
-    id: 'joe-link.e-usdc.e',
+    id: 'joe-link.e-usdc.e-eol',
     name: 'Link.e-USDC.e LP',
     token: 'Link.e-USDC.e JLP',
     tokenDescription: 'Trader Joe',
@@ -185,8 +960,9 @@ export const avalanchePools = [
     oracle: 'lps',
     oracleId: 'joe-link.e-usdc.e',
     oraclePrice: 0,
-    depositsPaused: false,
-    status: 'active',
+    depositsPaused: true,
+    status: 'eol',
+    retireReason: 'rewards',
     platform: 'Trader Joe',
     assets: ['USDCe', 'LINKe'],
     risks: [
@@ -202,6 +978,7 @@ export const avalanchePools = [
       'https://traderjoexyz.com/pool/0x5947bb275c521040051d82396192181b413227a3/0xa7d7079b0fead91f3e65f86e8915cb59c1a4c664',
     buyTokenUrl:
       'https://traderjoexyz.com/trade?outputCurrency=0x5947BB275c521040051D82396192181b413227A3',
+    createdAt: 1643975317,
   },
   {
     id: 'png-mim-usdc.e',
@@ -236,6 +1013,7 @@ export const avalanchePools = [
       'https://app.pangolin.exchange/#/add/0x130966628846BFd36ff31a822705796e8cb8C18D/0xA7D7079b0FEaD91F3e65f86E8915Cb59c1a4C664',
     buyTokenUrl:
       'https://app.pangolin.exchange/#/swap?inputCurrency=0xA7D7079b0FEaD91F3e65f86E8915Cb59c1a4C664&outputCurrency=0x130966628846BFd36ff31a822705796e8cb8C18D',
+    createdAt: 1643465038,
   },
   {
     id: 'png-ust-wavax',
@@ -270,6 +1048,7 @@ export const avalanchePools = [
       'https://app.pangolin.exchange/#/add/AVAX/0x260Bbf5698121EB85e7a74f2E45E16Ce762EbE11',
     buyTokenUrl:
       'https://app.pangolin.exchange/#/swap?outputCurrency=0x260Bbf5698121EB85e7a74f2E45E16Ce762EbE11',
+    createdAt: 1643836585,
   },
   {
     id: 'png-ust-usdc',
@@ -304,6 +1083,7 @@ export const avalanchePools = [
       'https://app.pangolin.exchange/#/add/0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E/0x260Bbf5698121EB85e7a74f2E45E16Ce762EbE11',
     buyTokenUrl:
       'https://app.pangolin.exchange/#/swap?inputCurrency=0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E&outputCurrency=0x260Bbf5698121EB85e7a74f2E45E16Ce762EbE11',
+    createdAt: 1643839674,
   },
   {
     id: 'grape-grape-mim',
@@ -338,6 +1118,7 @@ export const avalanchePools = [
       'https://traderjoexyz.com/pool/0x130966628846bfd36ff31a822705796e8cb8c18d/0x5541d83efad1f281571b343977648b75d95cdac2',
     buyTokenUrl:
       'https://www.traderjoexyz.com/trade?outputCurrency=0x5541D83EFaD1f281571B343977648B75d95cdAC2',
+    createdAt: 1643717100,
   },
   {
     id: 'grape-wine-mim',
@@ -372,6 +1153,7 @@ export const avalanchePools = [
       'https://traderjoexyz.com/pool/0x130966628846bfd36ff31a822705796e8cb8c18d/0xC55036B5348CfB45a932481744645985010d3A44',
     buyTokenUrl:
       'https://www.traderjoexyz.com/trade?outputCurrency=0xC55036B5348CfB45a932481744645985010d3A44',
+    createdAt: 1643718763,
   },
   {
     id: 'png-usdc.e-wavax',
@@ -406,6 +1188,7 @@ export const avalanchePools = [
       'https://app.pangolin.exchange/#/add/0xa7d7079b0fead91f3e65f86e8915cb59c1a4c664/0xb31f66aa3c1e785363f0875a1b74e27b85fd66c7',
     buyTokenUrl:
       'https://app.pangolin.exchange/#/swap?inputCurrency=0xa7d7079b0fead91f3e65f86e8915cb59c1a4c664&outputCurrency=0xb31f66aa3c1e785363f0875a1b74e27b85fd66c7',
+    createdAt: 1643458455,
   },
   {
     id: 'png-png-usdc.e',
@@ -440,6 +1223,7 @@ export const avalanchePools = [
       'https://app.pangolin.exchange/#/add/0x60781c2586d68229fde47564546784ab3faca982/0xa7d7079b0fead91f3e65f86e8915cb59c1a4c664',
     buyTokenUrl:
       'https://app.pangolin.exchange/#/swap?inputCurrency=0x60781c2586d68229fde47564546784ab3faca982&outputCurrency=0xa7d7079b0fead91f3e65f86e8915cb59c1a4c664',
+    createdAt: 1643469425,
   },
   {
     id: 'png-png-wavax',
@@ -474,6 +1258,7 @@ export const avalanchePools = [
       'https://app.pangolin.exchange/#/add/0x60781c2586d68229fde47564546784ab3faca982/0xb31f66aa3c1e785363f0875a1b74e27b85fd66c7',
     buyTokenUrl:
       'https://app.pangolin.exchange/#/swap?inputCurrency=0x60781c2586d68229fde47564546784ab3faca982&outputCurrency=0xb31f66aa3c1e785363f0875a1b74e27b85fd66c7',
+    createdAt: 1643465763,
   },
   {
     id: 'joe-wavax-xava',
@@ -508,6 +1293,7 @@ export const avalanchePools = [
       'https://traderjoexyz.com/pool/0xd1c3f94DE7e5B45fa4eDBBA472491a9f4B166FC4/AVAX',
     buyTokenUrl:
       'https://www.traderjoexyz.com/trade?outputCurrency=0xd1c3f94DE7e5B45fa4eDBBA472491a9f4B166FC4',
+    createdAt: 1643391049,
   },
   {
     id: 'joe-wavax-cook',
@@ -542,6 +1328,7 @@ export const avalanchePools = [
       'https://traderjoexyz.com/pool/0x637afeff75ca669fF92e4570B14D6399A658902f/AVAX',
     buyTokenUrl:
       'https://www.traderjoexyz.com/trade?outputCurrency=0x637afeff75ca669fF92e4570B14D6399A658902f',
+    createdAt: 1643382032,
   },
   {
     id: 'joe-wavax-dcau',
@@ -576,6 +1363,7 @@ export const avalanchePools = [
       'https://traderjoexyz.com/pool/0x100Cc3a819Dd3e8573fD2E46D1E66ee866068f30/AVAX',
     buyTokenUrl:
       'https://www.traderjoexyz.com/trade?outputCurrency=0x100Cc3a819Dd3e8573fD2E46D1E66ee866068f30',
+    createdAt: 1643387033,
   },
   {
     id: 'joe-wavax-hec',
@@ -610,6 +1398,7 @@ export const avalanchePools = [
       'https://traderjoexyz.com/pool/0xC7f4debC8072e23fe9259A5C0398326d8EfB7f5c/AVAX',
     buyTokenUrl:
       'https://www.traderjoexyz.com/trade?outputCurrency=0xC7f4debC8072e23fe9259A5C0398326d8EfB7f5c',
+    createdAt: 1643388939,
   },
   {
     id: 'png-wavax-frax',
@@ -644,6 +1433,7 @@ export const avalanchePools = [
       'https://app.pangolin.exchange/#/add/0xD24C2Ad096400B6FBcd2ad8B24E7acBc21A1da64/AVAX',
     buyTokenUrl:
       'https://app.pangolin.exchange/#/swap?outputCurrency=0xD24C2Ad096400B6FBcd2ad8B24E7acBc21A1da64',
+    createdAt: 1643443063,
   },
   {
     id: 'png-link.e-wavax',
@@ -678,6 +1468,7 @@ export const avalanchePools = [
       'https://app.pangolin.exchange/#/add/0x5947BB275c521040051D82396192181b413227A3/AVAX',
     buyTokenUrl:
       'https://app.pangolin.exchange/#/swap?outputCurrency=0x5947BB275c521040051D82396192181b413227A3',
+    createdAt: 1643442618,
   },
   {
     id: 'png-jewel-wavax',
@@ -712,6 +1503,7 @@ export const avalanchePools = [
       'https://app.pangolin.exchange/#/add/0x4f60a160D8C2DDdaAfe16FCC57566dB84D674BD6/AVAX',
     buyTokenUrl:
       'https://app.pangolin.exchange/#/swap?outputCurrency=0x4f60a160D8C2DDdaAfe16FCC57566dB84D674BD6',
+    createdAt: 1643431788,
   },
   {
     id: 'joe-ust-wavax',
@@ -746,6 +1538,7 @@ export const avalanchePools = [
       'https://traderjoexyz.com/pool/0x260Bbf5698121EB85e7a74f2E45E16Ce762EbE11/AVAX',
     buyTokenUrl:
       'https://www.traderjoexyz.com/trade?outputCurrency=0x260Bbf5698121EB85e7a74f2E45E16Ce762EbE11',
+    createdAt: 1643314337,
   },
   {
     id: 'joe-wavax-more',
@@ -780,6 +1573,7 @@ export const avalanchePools = [
       'https://traderjoexyz.com/pool/0xd9D90f882CDdD6063959A9d837B05Cb748718A05/AVAX',
     buyTokenUrl:
       'https://www.traderjoexyz.com/trade?outputCurrency=0xd9D90f882CDdD6063959A9d837B05Cb748718A05',
+    createdAt: 1643314704,
   },
   {
     id: 'joe-gmx-wavax',
@@ -814,6 +1608,7 @@ export const avalanchePools = [
       'https://traderjoexyz.com/pool/0x62edc0692BD897D2295872a9FFCac5425011c661/AVAX',
     buyTokenUrl:
       'https://www.traderjoexyz.com/trade?outputCurrency=0x62edc0692BD897D2295872a9FFCac5425011c661',
+    createdAt: 1643314903,
   },
   {
     id: 'png-png',
@@ -847,6 +1642,7 @@ export const avalanchePools = [
     stratType: 'SingleStake',
     buyTokenUrl:
       'https://app.pangolin.exchange/#/swap?inputCurrency=0xb31f66aa3c1e785363f0875a1b74e27b85fd66c7&outputCurrency=0x60781C2586D68229fde47564546784ab3fACA982',
+    createdAt: 1642706787,
   },
   {
     id: 'mai-avax-mai-crv',
@@ -881,6 +1677,7 @@ export const avalanchePools = [
     depositFee: '0.5%',
     withdrawalFee: '0%',
     addLiquidityUrl: 'https://avax.curve.fi/factory/7/deposit',
+    createdAt: 1640553576,
   },
   {
     id: 'joe-usdc.e-usdc',
@@ -915,6 +1712,7 @@ export const avalanchePools = [
       'https://traderjoexyz.com/pool/0xA7D7079b0FEaD91F3e65f86E8915Cb59c1a4C664/0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E',
     buyTokenUrl:
       'https://www.traderjoexyz.com/trade?outputCurrency=0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E',
+    createdAt: 1639756286,
   },
   {
     id: 'joe-usdt-usdt.e',
@@ -949,9 +1747,10 @@ export const avalanchePools = [
       'https://traderjoexyz.com/pool/0x9702230a8ea53601f5cd2dc00fdbc13d4df4a8c7/0xc7198437980c041c805a1edcba50c1ce5db95118',
     buyTokenUrl:
       'https://traderjoexyz.com/trade?outputCurrency=0x9702230a8ea53601f5cd2dc00fdbc13d4df4a8c7#/',
+    createdAt: 1643233920,
   },
   {
-    id: 'joe-wavax-frax',
+    id: 'joe-wavax-frax-eol',
     name: 'FRAX-AVAX LP',
     token: 'FRAX-AVAX JLP',
     tokenDescription: 'Trader Joe',
@@ -966,8 +1765,9 @@ export const avalanchePools = [
     oracle: 'lps',
     oracleId: 'joe-wavax-frax',
     oraclePrice: 0,
-    depositsPaused: false,
-    status: 'active',
+    depositsPaused: true,
+    status: 'eol',
+    retireReason: 'rewards',
     platform: 'Trader Joe',
     assets: ['FRAX', 'AVAX'],
     risks: [
@@ -983,9 +1783,10 @@ export const avalanchePools = [
       'https://traderjoexyz.com/pool/AVAX/0xd24c2ad096400b6fbcd2ad8b24e7acbc21a1da64',
     buyTokenUrl:
       'https://traderjoexyz.com/trade?outputCurrency=0xd24c2ad096400b6fbcd2ad8b24e7acbc21a1da64#/',
+    createdAt: 1643310908,
   },
   {
-    id: 'joe-wavax-cly',
+    id: 'joe-wavax-cly-eol',
     name: 'CLY-AVAX LP',
     token: 'CLY-AVAX JLP',
     tokenDescription: 'Trader Joe',
@@ -1000,8 +1801,9 @@ export const avalanchePools = [
     oracle: 'lps',
     oracleId: 'joe-wavax-cly',
     oraclePrice: 0,
-    depositsPaused: false,
-    status: 'active',
+    depositsPaused: true,
+    status: 'eol',
+    retireReason: 'rewards',
     platform: 'Trader Joe',
     assets: ['CLY', 'AVAX'],
     risks: [
@@ -1017,6 +1819,7 @@ export const avalanchePools = [
       'https://traderjoexyz.com/pool/AVAX/0xec3492a2508DDf4FDc0cD76F31f340b30d1793e6',
     buyTokenUrl:
       'https://www.traderjoexyz.com/trade?outputCurrency=0xec3492a2508DDf4FDc0cD76F31f340b30d1793e6',
+    createdAt: 1639753516,
   },
   {
     id: 'joe-ptp-wavax',
@@ -1051,6 +1854,7 @@ export const avalanchePools = [
       'https://traderjoexyz.com/pool/AVAX/0x22d4002028f537599bE9f666d1c4Fa138522f9c8',
     buyTokenUrl:
       'https://www.traderjoexyz.com/trade?outputCurrency=0x22d4002028f537599bE9f666d1c4Fa138522f9c8',
+    createdAt: 1639751352,
   },
   {
     id: 'joe-awool-wavax-eol',
@@ -1086,9 +1890,10 @@ export const avalanchePools = [
       'https://traderjoexyz.com/pool/AVAX/0x5eDE350E84223fb50775fD91a723F2ca71034cf7',
     buyTokenUrl:
       'https://www.traderjoexyz.com/trade?outputCurrency=0x5eDE350E84223fb50775fD91a723F2ca71034cf7',
+    createdAt: 1639412305,
   },
   {
-    id: 'joe-klo-wavax',
+    id: 'joe-klo-wavax-eol',
     name: 'KLO-AVAX LP',
     token: 'KLO-AVAX JLP',
     tokenDescription: 'Trader Joe',
@@ -1103,8 +1908,9 @@ export const avalanchePools = [
     oracle: 'lps',
     oracleId: 'joe-klo-wavax',
     oraclePrice: 0,
-    depositsPaused: false,
-    status: 'active',
+    depositsPaused: true,
+    status: 'eol',
+    retireReason: 'rewards',
     platform: 'Trader Joe',
     assets: ['KLO', 'AVAX'],
     risks: [
@@ -1120,6 +1926,7 @@ export const avalanchePools = [
       'https://traderjoexyz.com/pool/AVAX/0xb27c8941a7Df8958A1778c0259f76D1F8B711C35',
     buyTokenUrl:
       'https://www.traderjoexyz.com/trade?outputCurrency=0xb27c8941a7Df8958A1778c0259f76D1F8B711C35',
+    createdAt: 1639411464,
   },
   {
     id: 'joe-craft-wavax',
@@ -1154,6 +1961,7 @@ export const avalanchePools = [
       'https://traderjoexyz.com/pool/AVAX/0x8aE8be25C23833e0A01Aa200403e826F611f9CD2',
     buyTokenUrl:
       'https://www.traderjoexyz.com/trade?outputCurrency=0x8aE8be25C23833e0A01Aa200403e826F611f9CD2',
+    createdAt: 1639410461,
   },
   {
     id: 'joe-melt-wavax',
@@ -1188,6 +1996,7 @@ export const avalanchePools = [
       'https://traderjoexyz.com/pool/AVAX/0x47EB6F7525C1aA999FBC9ee92715F5231eB1241D',
     buyTokenUrl:
       'https://www.traderjoexyz.com/trade?outputCurrency=0x47EB6F7525C1aA999FBC9ee92715F5231eB1241D',
+    createdAt: 1639409390,
   },
   {
     id: 'joe-gohm-wavax',
@@ -1222,6 +2031,7 @@ export const avalanchePools = [
       'https://traderjoexyz.com/pool/AVAX/0x321E7092a180BB43555132ec53AaA65a5bF84251',
     buyTokenUrl:
       'https://www.traderjoexyz.com/trade?outputCurrency=0x321E7092a180BB43555132ec53AaA65a5bF84251',
+    createdAt: 1638350965,
   },
   {
     id: 'synapse-nusdlp',
@@ -1256,6 +2066,7 @@ export const avalanchePools = [
     assets: ['nUSD', 'DAIe', 'USDCe', 'USDTe'],
     withdrawalFee: '0.01%',
     addLiquidityUrl: 'https://synapseprotocol.com/pools/avalanchenusd',
+    createdAt: 1637768693,
   },
   {
     id: 'mai-qi-wavax',
@@ -1292,6 +2103,7 @@ export const avalanchePools = [
       'https://traderjoexyz.com/pool/AVAX/0xA56F9A54880afBc30CF29bB66d2D9ADCdcaEaDD6',
     buyTokenUrl:
       'https://www.traderjoexyz.com/trade?outputCurrency=0xA56F9A54880afBc30CF29bB66d2D9ADCdcaEaDD6',
+    createdAt: 1637595209,
   },
   {
     id: 'blizz-avax',
@@ -1325,6 +2137,7 @@ export const avalanchePools = [
     withdrawalFee: '0.01%',
     buyTokenUrl:
       'https://www.traderjoexyz.com/trade?outputCurrency=0xB31f66AA3C1e785363F0875A1B74E27b85FD66c7',
+    createdAt: 1637579519,
   },
   {
     id: 'blizz-eth',
@@ -1359,6 +2172,7 @@ export const avalanchePools = [
     withdrawalFee: '0.01%',
     buyTokenUrl:
       'https://www.traderjoexyz.com/trade?outputCurrency=0x49D5c2BdFfac6CE2BFdB6640F4F80f226bc10bAB',
+    createdAt: 1637587754,
   },
   {
     id: 'blizz-wbtc',
@@ -1393,6 +2207,7 @@ export const avalanchePools = [
     withdrawalFee: '0.01%',
     buyTokenUrl:
       'https://www.traderjoexyz.com/trade?outputCurrency=0x50b7545627a5162F82A992c33b87aDc75187B218',
+    createdAt: 1637589664,
   },
   {
     id: 'blizz-blzz-avax',
@@ -1428,6 +2243,7 @@ export const avalanchePools = [
       'https://www.traderjoexyz.com/pool/AVAX/0x0f34919404a290e71fc6A510cB4a6aCb8D764b24',
     buyTokenUrl:
       'https://traderjoexyz.com/trade?outputCurrency=0x0f34919404a290e71fc6A510cB4a6aCb8D764b24',
+    createdAt: 1636366466,
   },
   {
     id: 'joe-cra-wavax',
@@ -1462,6 +2278,7 @@ export const avalanchePools = [
       'https://traderjoexyz.com/pool/AVAX/0xA32608e873F9DdEF944B24798db69d80Bbb4d1ed',
     buyTokenUrl:
       'https://www.traderjoexyz.com/trade?outputCurrency=0xA32608e873F9DdEF944B24798db69d80Bbb4d1ed',
+    createdAt: 1637589059,
   },
   {
     id: 'joe-wavax-boo',
@@ -1496,6 +2313,7 @@ export const avalanchePools = [
       'https://traderjoexyz.com/pool/AVAX/0xbD83010eB60F12112908774998F65761cf9f6f9a',
     buyTokenUrl:
       'https://www.traderjoexyz.com/trade?outputCurrency=0xbD83010eB60F12112908774998F65761cf9f6f9a',
+    createdAt: 1637251694,
   },
   {
     id: 'spell-avax-mim-crv-eol',
@@ -1530,6 +2348,7 @@ export const avalanchePools = [
     stratType: 'StratMultiLP',
     withdrawalFee: '0%',
     addLiquidityUrl: 'https://avax.curve.fi/factory/4/deposit',
+    createdAt: 1637146468,
   },
   {
     id: 'bankerjoe-avax',
@@ -1563,6 +2382,7 @@ export const avalanchePools = [
     withdrawalFee: '0.01%',
     buyTokenUrl:
       'https://www.traderjoexyz.com/trade?outputCurrency=0xB31f66AA3C1e785363F0875A1B74E27b85FD66c7',
+    createdAt: 1636471887,
   },
   {
     id: 'bankerjoe-weth.e',
@@ -1597,6 +2417,7 @@ export const avalanchePools = [
     withdrawalFee: '0.01%',
     buyTokenUrl:
       'https://www.traderjoexyz.com/trade?outputCurrency=0x49D5c2BdFfac6CE2BFdB6640F4F80f226bc10bAB',
+    createdAt: 1636468072,
   },
   {
     id: 'bankerjoe-wbtc.e',
@@ -1631,6 +2452,7 @@ export const avalanchePools = [
     withdrawalFee: '0.01%',
     buyTokenUrl:
       'https://www.traderjoexyz.com/trade?outputCurrency=0x50b7545627a5162F82A992c33b87aDc75187B218',
+    createdAt: 1636462707,
   },
   {
     id: 'bankerjoe-usdc.e',
@@ -1665,6 +2487,7 @@ export const avalanchePools = [
     withdrawalFee: '0.01%',
     buyTokenUrl:
       'https://www.traderjoexyz.com/trade?outputCurrency=0xA7D7079b0FEaD91F3e65f86E8915Cb59c1a4C664',
+    createdAt: 1636468925,
   },
   {
     id: 'bankerjoe-usdt.e',
@@ -1699,6 +2522,7 @@ export const avalanchePools = [
     withdrawalFee: '0.01%',
     buyTokenUrl:
       'https://www.traderjoexyz.com/trade?outputCurrency=0xc7198437980c041c805A1EDcbA50c1Ce5db95118',
+    createdAt: 1636470449,
   },
   {
     id: 'bankerjoe-dai.e-eol',
@@ -1734,9 +2558,10 @@ export const avalanchePools = [
     withdrawalFee: '0%',
     buyTokenUrl:
       'https://www.traderjoexyz.com/trade?outputCurrency=0xd586E7F844cEa2F87f50152665BCbc2C279D8d70',
+    createdAt: 1636461424,
   },
   {
-    id: 'bankerjoe-link.e',
+    id: 'bankerjoe-link.e-eol',
     logo: 'single-assets/LINK.png',
     name: 'LINK.e',
     token: 'LINK.e',
@@ -1752,8 +2577,9 @@ export const avalanchePools = [
     oracle: 'tokens',
     oracleId: 'LINK.e',
     oraclePrice: 0,
-    depositsPaused: false,
-    status: 'active',
+    depositsPaused: true,
+    status: 'eol',
+    retireReason: 'tvl',
     platform: 'Banker Joe',
     assets: ['LINKe'],
     risks: [
@@ -1768,6 +2594,7 @@ export const avalanchePools = [
     withdrawalFee: '0.01%',
     buyTokenUrl:
       'https://www.traderjoexyz.com/trade?outputCurrency=0x5947BB275c521040051D82396192181b413227A3',
+    createdAt: 1636458630,
   },
   {
     id: 'bankerjoe-mim-eol',
@@ -1803,6 +2630,7 @@ export const avalanchePools = [
     withdrawalFee: '0.01%',
     buyTokenUrl:
       'https://www.traderjoexyz.com/trade?outputCurrency=0x130966628846BFd36ff31a822705796e8cb8C18D',
+    createdAt: 1636455936,
   },
   {
     id: 'joe-wavax-bifi-eol',
@@ -1837,6 +2665,7 @@ export const avalanchePools = [
     addLiquidityUrl:
       'https://www.traderjoexyz.com/pool/AVAX/0xd6070ae98b8069de6b494332d1a1a81b6179d960',
     buyTokenUrl: 'https://www.traderjoexyz.com/trade',
+    createdAt: 1632231693,
   },
   {
     id: 'curve-avax-av3crv',
@@ -1870,42 +2699,10 @@ export const avalanchePools = [
     stratType: 'StratMultiLP',
     withdrawalFee: '0.01%',
     addLiquidityUrl: 'https://avax.curve.fi/aave/deposit',
+    createdAt: 1634117214,
   },
   {
-    id: 'curve-avax-atricrypto',
-    logo: 'uncategorized/ATRICRYPTO.png',
-    name: 'aTriCrypto',
-    token: 'crvUSDBTCETH',
-    tokenDescription: 'Curve',
-    tokenAddress: '0x1daB6560494B04473A0BE3E7D83CF3Fdf3a51828',
-    tokenDecimals: 18,
-    tokenDescriptionUrl: '#',
-    earnedToken: 'mooCurveTriCrypto',
-    earnedTokenAddress: '0xe1a8EeA58D63Ea64d00365531D266C2AD1f62FC4',
-    earnContractAddress: '0xe1a8EeA58D63Ea64d00365531D266C2AD1f62FC4',
-    pricePerFullShare: 1,
-    tvl: 0,
-    oracle: 'lps',
-    oracleId: 'curve-avax-atricrypto',
-    oraclePrice: 0,
-    depositsPaused: false,
-    status: 'active',
-    platform: 'Curve',
-    assets: ['DAIe', 'USDCe', 'USDTe', 'WBTCe', 'WETHe'],
-    risks: [
-      'COMPLEXITY_LOW',
-      'BATTLE_TESTED',
-      'IL_LOW',
-      'MCAP_LARGE',
-      'AUDIT',
-      'CONTRACTS_VERIFIED',
-    ],
-    stratType: 'StratMultiLP',
-    withdrawalFee: '0.01%',
-    addLiquidityUrl: 'https://avax.curve.fi/atricrypto/deposit',
-  },
-  {
-    id: 'joe-mai-wavax-v2',
+    id: 'joe-mai-wavax-v2-eol',
     name: 'MAI-AVAX LP',
     token: 'MAI-AVAX JLP',
     tokenDescription: 'Trader Joe',
@@ -1921,7 +2718,7 @@ export const avalanchePools = [
     oracleId: 'joe-mai-wavax-v2',
     oraclePrice: 0,
     depositsPaused: false,
-    status: 'active',
+    status: 'eol',
     platform: 'Trader Joe',
     assets: ['MAI', 'AVAX'],
     risks: [
@@ -1933,12 +2730,14 @@ export const avalanchePools = [
       'CONTRACTS_VERIFIED',
     ],
     stratType: 'StratLP',
+    retireReason: 'rewards',
     addLiquidityUrl:
       'https://traderjoexyz.com/pool/AVAX/0x5c49b268c9841AFF1Cc3B0a418ff5c3442eE3F3b',
     buyTokenUrl: 'https://www.traderjoexyz.com/trade',
+    createdAt: 1636310053,
   },
   {
-    id: 'joe-ampl-wavax',
+    id: 'joe-ampl-wavax-eol',
     name: 'AMPL-AVAX LP',
     token: 'AMPL-AVAX JLP',
     tokenDescription: 'Trader Joe',
@@ -1953,8 +2752,8 @@ export const avalanchePools = [
     oracle: 'lps',
     oracleId: 'joe-ampl-wavax',
     oraclePrice: 0,
-    depositsPaused: false,
-    status: 'active',
+    depositsPaused: true,
+    status: 'eol',
     platform: 'Trader Joe',
     assets: ['AMPL', 'AVAX'],
     risks: [
@@ -1969,9 +2768,11 @@ export const avalanchePools = [
     addLiquidityUrl:
       'https://traderjoexyz.com/pool/AVAX/0x027dbcA046ca156De9622cD1e2D907d375e53aa7',
     buyTokenUrl: 'https://www.traderjoexyz.com/trade',
+    createdAt: 1636308849,
+    retiredReason: 'tvl',
   },
   {
-    id: 'sing-usdt.e-sing',
+    id: 'sing-usdt.e-sing-eol',
     name: 'SING-USDT.e LP',
     token: 'SING-USDT.e LP',
     tokenDescription: 'TraderJoe (Singular)',
@@ -1986,14 +2787,16 @@ export const avalanchePools = [
     oracle: 'lps',
     oracleId: 'sing-usdt.e-sing',
     oraclePrice: 0,
-    depositsPaused: false,
-    status: 'active',
+    depositsPaused: true,
+    status: 'eol',
     platform: 'Other',
     assets: ['SING', 'USDTe'],
     addLiquidityUrl:
       'https://www.traderjoexyz.com/pool/0xc7198437980c041c805a1edcba50c1ce5db95118/0xf9a075c9647e91410bf6c402bdf166e1540f67f0',
     buyTokenUrl:
       'https://www.traderjoexyz.com/trade?outputCurrency=0xf9a075c9647e91410bf6c402bdf166e1540f67f0',
+    createdAt: 1633701180,
+    retiredReason: 'tvl',
   },
   {
     id: 'aave-dai.e',
@@ -2029,6 +2832,7 @@ export const avalanchePools = [
     withdrawalFee: '0.01%',
     buyTokenUrl:
       'https://www.traderjoexyz.com/trade?outputCurrency=0xd586E7F844cEa2F87f50152665BCbc2C279D8d70',
+    createdAt: 1633509013,
   },
   {
     id: 'aave-usdc.e',
@@ -2064,9 +2868,10 @@ export const avalanchePools = [
     withdrawalFee: '0.01%',
     buyTokenUrl:
       'https://www.traderjoexyz.com/trade?outputCurrency=0xA7D7079b0FEaD91F3e65f86E8915Cb59c1a4C664',
+    createdAt: 1633512435,
   },
   {
-    id: 'aave-usdt.e',
+    id: 'aave-usdt.e-eol',
     logo: 'single-assets/USDT.svg',
     name: 'USDT.e',
     token: 'USDT.e',
@@ -2082,8 +2887,8 @@ export const avalanchePools = [
     oracle: 'tokens',
     oracleId: 'USDT.e',
     oraclePrice: 0,
-    depositsPaused: false,
-    status: 'active',
+    depositsPaused: true,
+    status: 'eol',
     platform: 'Aave',
     assets: ['USDTe'],
     risks: [
@@ -2099,6 +2904,8 @@ export const avalanchePools = [
     withdrawalFee: '0.01%',
     buyTokenUrl:
       'https://www.traderjoexyz.com/trade?outputCurrency=0xc7198437980c041c805A1EDcbA50c1Ce5db95118',
+    createdAt: 1633529509,
+    retiredReason: 'tvl',
   },
   {
     id: 'aave-weth.e',
@@ -2134,6 +2941,7 @@ export const avalanchePools = [
     withdrawalFee: '0.01%',
     buyTokenUrl:
       'https://www.traderjoexyz.com/trade?outputCurrency=0x49D5c2BdFfac6CE2BFdB6640F4F80f226bc10bAB',
+    createdAt: 1633505465,
   },
   {
     id: 'aave-wbtc.e',
@@ -2169,6 +2977,7 @@ export const avalanchePools = [
     withdrawalFee: '0.01%',
     buyTokenUrl:
       'https://www.traderjoexyz.com/trade?outputCurrency=0x50b7545627a5162F82A992c33b87aDc75187B218',
+    createdAt: 1633513492,
   },
   {
     id: 'aave-aave.e',
@@ -2204,42 +3013,10 @@ export const avalanchePools = [
     withdrawalFee: '0.01%',
     buyTokenUrl:
       'https://www.traderjoexyz.com/trade?outputCurrency=0x63a72806098Bd3D9520cC43356dD78afe5D386D9',
+    createdAt: 1633524150,
   },
   {
-    id: 'joe-joe',
-    logo: 'single-assets/JOE.png',
-    name: 'JOE',
-    token: 'JOE',
-    tokenDescription: 'Trader Joe (xJoe)',
-    tokenAddress: '0x6e84a6216eA6dACC71eE8E6b0a5B7322EEbC0fDd',
-    tokenDecimals: 18,
-    tokenDescriptionUrl: '#',
-    earnedToken: 'mooJoe',
-    earnedTokenAddress: '0x282B11E65f0B49363D4505F91c7A44fBEe6bCc0b',
-    earnContractAddress: '0x282B11E65f0B49363D4505F91c7A44fBEe6bCc0b',
-    pricePerFullShare: 1,
-    tvl: 0,
-    oracle: 'tokens',
-    oracleId: 'JOE',
-    oraclePrice: 0,
-    depositsPaused: false,
-    status: 'active',
-    platform: 'Trader Joe',
-    assets: ['JOE'],
-    risks: [
-      'COMPLEXITY_LOW',
-      'BATTLE_TESTED',
-      'IL_NONE',
-      'MCAP_MEDIUM',
-      'PLATFORM_ESTABLISHED',
-      'CONTRACTS_VERIFIED',
-    ],
-    stratType: 'SingleStake',
-    withdrawalFee: '0%',
-    buyTokenUrl: 'https://www.traderjoexyz.com/trade',
-  },
-  {
-    id: 'joe-joe-usdc.e',
+    id: 'joe-joe-usdc.e-eol',
     name: 'JOE-USDC.e LP',
     token: 'JOE-USDC.e JLP',
     tokenDescription: 'Trader Joe',
@@ -2255,7 +3032,7 @@ export const avalanchePools = [
     oracleId: 'joe-joe-usdc.e',
     oraclePrice: 0,
     depositsPaused: false,
-    status: 'active',
+    status: 'eol',
     platform: 'Trader Joe',
     assets: ['JOE', 'USDCe'],
     risks: [
@@ -2267,9 +3044,11 @@ export const avalanchePools = [
       'CONTRACTS_VERIFIED',
     ],
     stratType: 'StratLP',
+    retireReason: 'rewards',
     addLiquidityUrl:
       'https://www.traderjoexyz.com/pool/0x6e84a6216ea6dacc71ee8e6b0a5b7322eebc0fdd/0xa7d7079b0fead91f3e65f86e8915cb59c1a4c664',
     buyTokenUrl: 'https://www.traderjoexyz.com/trade',
+    createdAt: 1632845828,
   },
   {
     id: 'joe-wavax-aave.e',
@@ -2303,6 +3082,7 @@ export const avalanchePools = [
     addLiquidityUrl:
       'https://www.traderjoexyz.com/pool/0x63a72806098bd3d9520cc43356dd78afe5d386d9/AVAX',
     buyTokenUrl: 'https://www.traderjoexyz.com/trade',
+    createdAt: 1632847091,
   },
   {
     id: 'joe-mai-wavax-eol',
@@ -2336,6 +3116,7 @@ export const avalanchePools = [
     addLiquidityUrl:
       'https://www.traderjoexyz.com/pool/0x3b55e45fd6bd7d4724f5c47e0d1bcaedd059263e/AVAX',
     buyTokenUrl: 'https://www.traderjoexyz.com/trade',
+    createdAt: 1632848062,
   },
   {
     id: 'joe-weth.e-usdc.e',
@@ -2369,6 +3150,7 @@ export const avalanchePools = [
     addLiquidityUrl:
       'https://www.traderjoexyz.com/pool/0x49d5c2bdffac6ce2bfdb6640f4f80f226bc10bab/0xa7d7079b0fead91f3e65f86e8915cb59c1a4c664',
     buyTokenUrl: 'https://www.traderjoexyz.com/trade',
+    createdAt: 1632849037,
   },
   {
     id: 'joe-wbtc.e-usdc.e',
@@ -2402,6 +3184,7 @@ export const avalanchePools = [
     addLiquidityUrl:
       'https://www.traderjoexyz.com/pool/0x50b7545627a5162f82a992c33b87adc75187b218/0xa7d7079b0fead91f3e65f86e8915cb59c1a4c664',
     buyTokenUrl: 'https://www.traderjoexyz.com/trade',
+    createdAt: 1632850669,
   },
   {
     id: 'joe-bnb-wavax',
@@ -2435,6 +3218,7 @@ export const avalanchePools = [
     addLiquidityUrl:
       'https://www.traderjoexyz.com/pool/0x264c1383ea520f73dd837f915ef3a732e204a493/AVAX',
     buyTokenUrl: 'https://www.traderjoexyz.com/trade',
+    createdAt: 1632232139,
   },
   {
     id: 'joe-usdc.e-usdt.e-eol',
@@ -2469,6 +3253,7 @@ export const avalanchePools = [
     addLiquidityUrl:
       'https://www.traderjoexyz.com/pool/0xa7d7079b0fead91f3e65f86e8915cb59c1a4c664/0xc7198437980c041c805a1edcba50c1ce5db95118',
     buyTokenUrl: 'https://www.traderjoexyz.com/trade',
+    createdAt: 1632154081,
   },
   {
     id: 'joe-usdt.e-dai.e-eol',
@@ -2503,6 +3288,7 @@ export const avalanchePools = [
     addLiquidityUrl:
       'https://www.traderjoexyz.com/pool/0xc7198437980c041c805a1edcba50c1ce5db95118/0xd586e7f844cea2f87f50152665bcbc2c279d8d70',
     buyTokenUrl: 'https://www.traderjoexyz.com/trade',
+    createdAt: 1632133345,
   },
   {
     id: 'joe-wavax-usdt.e',
@@ -2536,6 +3322,7 @@ export const avalanchePools = [
     addLiquidityUrl:
       'https://www.traderjoexyz.com/pool/AVAX/0xc7198437980c041c805a1edcba50c1ce5db95118',
     buyTokenUrl: 'https://www.traderjoexyz.com/trade',
+    createdAt: 1632129313,
   },
   {
     id: 'joe-link.e-wavax',
@@ -2569,9 +3356,10 @@ export const avalanchePools = [
     addLiquidityUrl:
       'https://www.traderjoexyz.com/pool/0x5947bb275c521040051d82396192181b413227a3/AVAX',
     buyTokenUrl: 'https://www.traderjoexyz.com/trade',
+    createdAt: 1632125698,
   },
   {
-    id: 'joe-wavax-spell',
+    id: 'joe-wavax-spell-eol',
     name: 'SPELL-AVAX LP',
     token: 'SPELL-AVAX JLP',
     tokenDescription: 'Trader Joe',
@@ -2586,8 +3374,9 @@ export const avalanchePools = [
     oracle: 'lps',
     oracleId: 'joe-wavax-spell',
     oraclePrice: 0,
-    depositsPaused: false,
-    status: 'active',
+    depositsPaused: true,
+    status: 'eol',
+    retireReason: 'rewards',
     platform: 'Trader Joe',
     assets: ['SPELL', 'AVAX'],
     risks: [
@@ -2602,6 +3391,7 @@ export const avalanchePools = [
     addLiquidityUrl:
       'https://www.traderjoexyz.com/pool/0xB31f66AA3C1e785363F0875A1B74E27b85FD66c7/0xCE1bFFBD5374Dac86a2893119683F4911a2F7814',
     buyTokenUrl: 'https://www.traderjoexyz.com/trade',
+    createdAt: 1631896399,
   },
   {
     id: 'joe-frax-wavax-eol',
@@ -2636,6 +3426,7 @@ export const avalanchePools = [
     addLiquidityUrl:
       'https://www.traderjoexyz.com/pool/0xB31f66AA3C1e785363F0875A1B74E27b85FD66c7/0xDC42728B0eA910349ed3c6e1c9Dc06b5FB591f98',
     buyTokenUrl: 'https://www.traderjoexyz.com/trade',
+    createdAt: 1631635903,
   },
   {
     id: 'joe-time-wavax-eol',
@@ -2670,6 +3461,7 @@ export const avalanchePools = [
     addLiquidityUrl:
       'https://www.traderjoexyz.com/pool/0xB31f66AA3C1e785363F0875A1B74E27b85FD66c7/0xb54f16fB19478766A268F172C9480f8da1a7c9C3',
     buyTokenUrl: 'https://www.traderjoexyz.com/trade',
+    createdAt: 1631633988,
   },
   {
     id: 'pangolin-png-pause-eol',
@@ -2705,6 +3497,7 @@ export const avalanchePools = [
     withdrawalFee: '0%',
     buyTokenUrl:
       'https://app.pangolin.exchange/#/swap?inputCurrency=0xb31f66aa3c1e785363f0875a1b74e27b85fd66c7&outputCurrency=0x60781C2586D68229fde47564546784ab3fACA982',
+    createdAt: 1631361439,
   },
   {
     id: 'joe-mai-usdc.e-eol',
@@ -2739,6 +3532,7 @@ export const avalanchePools = [
     addLiquidityUrl:
       'https://www.traderjoexyz.com/pool/0x3b55e45fd6bd7d4724f5c47e0d1bcaedd059263e/0xa7d7079b0fead91f3e65f86e8915cb59c1a4c664',
     buyTokenUrl: 'https://www.traderjoexyz.com/trade',
+    createdAt: 1631305379,
   },
   {
     id: 'joe-joe-wavax',
@@ -2772,9 +3566,10 @@ export const avalanchePools = [
     addLiquidityUrl:
       'https://www.traderjoexyz.com/pool/AVAX/0x6e84a6216eA6dACC71eE8E6b0a5B7322EEbC0fDd',
     buyTokenUrl: 'https://www.traderjoexyz.com/trade',
+    createdAt: 1631119335,
   },
   {
-    id: 'joe-joe-usdt.e',
+    id: 'joe-joe-usdt.e-eol',
     name: 'JOE-USDT.e LP',
     token: 'JOE-USDT.e JLP',
     tokenDescription: 'Trader Joe',
@@ -2790,7 +3585,7 @@ export const avalanchePools = [
     oracleId: 'joe-joe-usdt.e',
     oraclePrice: 0,
     depositsPaused: false,
-    status: 'active',
+    status: 'eol',
     platform: 'Trader Joe',
     assets: ['JOE', 'USDTe'],
     risks: [
@@ -2801,10 +3596,12 @@ export const avalanchePools = [
       'PLATFORM_ESTABLISHED',
       'CONTRACTS_VERIFIED',
     ],
+    retireReason: 'rewards',
     stratType: 'StratLP',
     addLiquidityUrl:
       'https://www.traderjoexyz.com/pool/AVAX/0x6e84a6216eA6dACC71eE8E6b0a5B7322EEbC0fDd',
     buyTokenUrl: 'https://www.traderjoexyz.com/trade',
+    createdAt: 1631119603,
   },
   {
     id: 'joe-mim-wavax',
@@ -2838,6 +3635,7 @@ export const avalanchePools = [
     addLiquidityUrl:
       'https://www.traderjoexyz.com/pool/AVAX/0x130966628846BFd36ff31a822705796e8cb8C18D',
     buyTokenUrl: 'https://www.traderjoexyz.com/trade',
+    createdAt: 1630670273,
   },
   {
     id: 'joe-qi-wavax',
@@ -2871,6 +3669,7 @@ export const avalanchePools = [
     addLiquidityUrl:
       'https://www.traderjoexyz.com/pool/AVAX/0x8729438EB15e2C8B576fCc6AeCdA6A148776C0F5',
     buyTokenUrl: 'https://www.traderjoexyz.com/trade',
+    createdAt: 1630670133,
   },
   {
     id: 'joe-syn-wavax-eol',
@@ -2905,6 +3704,7 @@ export const avalanchePools = [
     addLiquidityUrl:
       'https://www.traderjoexyz.com/pool/AVAX/0x1f1E7c893855525b303f99bDF5c3c05Be09ca251',
     buyTokenUrl: 'https://www.traderjoexyz.com/trade',
+    createdAt: 1630670690,
   },
   {
     id: 'joe-wbtc.e-usdt.e-eol',
@@ -2939,6 +3739,7 @@ export const avalanchePools = [
     addLiquidityUrl:
       'https://www.traderjoexyz.com/pool/0xc7198437980c041c805A1EDcbA50c1Ce5db95118/0x50b7545627a5162F82A992c33b87aDc75187B218',
     buyTokenUrl: 'https://www.traderjoexyz.com/trade',
+    createdAt: 1630496447,
   },
   {
     id: 'joe-wbtc.e-wavax',
@@ -2972,6 +3773,7 @@ export const avalanchePools = [
     addLiquidityUrl:
       'https://www.traderjoexyz.com/pool/AVAX/0x50b7545627a5162F82A992c33b87aDc75187B218',
     buyTokenUrl: 'https://www.traderjoexyz.com/trade',
+    createdAt: 1630496650,
   },
   {
     id: 'joe-weth.e-wavax',
@@ -3005,6 +3807,7 @@ export const avalanchePools = [
     addLiquidityUrl:
       'https://www.traderjoexyz.com/pool/AVAX/0x49D5c2BdFfac6CE2BFdB6640F4F80f226bc10bAB',
     buyTokenUrl: 'https://www.traderjoexyz.com/trade',
+    createdAt: 1630496791,
   },
   {
     id: 'joe-usdc.e-dai.e-eol',
@@ -3039,6 +3842,7 @@ export const avalanchePools = [
     addLiquidityUrl:
       'https://www.traderjoexyz.com/pool/0xd586E7F844cEa2F87f50152665BCbc2C279D8d70/0xA7D7079b0FEaD91F3e65f86E8915Cb59c1a4C664',
     buyTokenUrl: 'https://www.traderjoexyz.com/trade',
+    createdAt: 1630085264,
   },
   {
     id: 'joe-usdc.e-wavax',
@@ -3072,6 +3876,7 @@ export const avalanchePools = [
     addLiquidityUrl:
       'https://www.traderjoexyz.com/pool/AVAX/0xA7D7079b0FEaD91F3e65f86E8915Cb59c1a4C664',
     buyTokenUrl: 'https://www.traderjoexyz.com/trade',
+    createdAt: 1630085124,
   },
   {
     id: 'joe-wavax-dai.e-eol',
@@ -3106,6 +3911,7 @@ export const avalanchePools = [
     addLiquidityUrl:
       'https://www.traderjoexyz.com/pool/AVAX/0xd586e7f844cea2f87f50152665bcbc2c279d8d70',
     buyTokenUrl: 'https://www.traderjoexyz.com/trade',
+    createdAt: 1630074200,
   },
   {
     id: 'pangolin-usdc.e-wavax-eol',
@@ -3141,6 +3947,7 @@ export const avalanchePools = [
       'https://app.pangolin.exchange/#/add/AVAX/0xA7D7079b0FEaD91F3e65f86E8915Cb59c1a4C664',
     buyTokenUrl:
       'https://app.pangolin.exchange/#/swap?inputCurrency=0xb31f66aa3c1e785363f0875a1b74e27b85fd66c7&outputCurrency=0xA7D7079b0FEaD91F3e65f86E8915Cb59c1a4C664',
+    createdAt: 1630269626,
   },
   {
     id: 'olive-dai.e-usdt.e',
@@ -3175,6 +3982,7 @@ export const avalanchePools = [
       'https://avax.olive.cash/add/0xd586E7F844cEa2F87f50152665BCbc2C279D8d70/0xc7198437980c041c805A1EDcbA50c1Ce5db95118',
     buyTokenUrl:
       'https://avax.olive.cash/swap?inputCurrency=0xd586E7F844cEa2F87f50152665BCbc2C279D8d70&outputCurrency=0xc7198437980c041c805A1EDcbA50c1Ce5db95118',
+    createdAt: 1630057114,
   },
   {
     id: 'olive-busd.e-usdt.e',
@@ -3209,6 +4017,7 @@ export const avalanchePools = [
       'https://avax.olive.cash/add/0x19860CCB0A68fd4213aB9D8266F7bBf05A8dDe98/0xc7198437980c041c805A1EDcbA50c1Ce5db95118',
     buyTokenUrl:
       'https://avax.olive.cash/swap?inputCurrency=0x19860CCB0A68fd4213aB9D8266F7bBf05A8dDe98&outputCurrency=0xc7198437980c041c805A1EDcbA50c1Ce5db95118',
+    createdAt: 1630054596,
   },
   {
     id: 'pangolin-png-qi-eol',
@@ -3244,6 +4053,7 @@ export const avalanchePools = [
       'https://app.pangolin.exchange/#/add/0x60781C2586D68229fde47564546784ab3fACA982/0x8729438EB15e2C8B576fCc6AeCdA6A148776C0F5',
     buyTokenUrl:
       'https://app.pangolin.exchange/#/swap?inputCurrency=0xb31f66aa3c1e785363f0875a1b74e27b85fd66c7&outputCurrency=0x8729438EB15e2C8B576fCc6AeCdA6A148776C0F5',
+    createdAt: 1629466316,
   },
   {
     id: 'pangolin-qi-wavax-eol',
@@ -3279,6 +4089,7 @@ export const avalanchePools = [
       'https://app.pangolin.exchange/#/add/AVAX/0x8729438EB15e2C8B576fCc6AeCdA6A148776C0F5',
     buyTokenUrl:
       'https://app.pangolin.exchange/#/swap?inputCurrency=0xb31f66aa3c1e785363f0875a1b74e27b85fd66c7&outputCurrency=0x8729438EB15e2C8B576fCc6AeCdA6A148776C0F5',
+    createdAt: 1629466194,
   },
   {
     id: 'pangolin-uni.e-wavax-eol',
@@ -3314,6 +4125,7 @@ export const avalanchePools = [
       'https://app.pangolin.exchange/#/add/AVAX/0x8eBAf22B6F053dFFeaf46f4Dd9eFA95D89ba8580',
     buyTokenUrl:
       'https://app.pangolin.exchange/#/swap?inputCurrency=0xb31f66aa3c1e785363f0875a1b74e27b85fd66c7&outputCurrency=0x8eBAf22B6F053dFFeaf46f4Dd9eFA95D89ba8580',
+    createdAt: 1629466081,
   },
   {
     id: 'pangolin-aave.e-wavax-eol',
@@ -3349,6 +4161,7 @@ export const avalanchePools = [
       'https://app.pangolin.exchange/#/add/AVAX/0x63a72806098Bd3D9520cC43356dD78afe5D386D9',
     buyTokenUrl:
       'https://app.pangolin.exchange/#/swap?inputCurrency=0xb31f66aa3c1e785363f0875a1b74e27b85fd66c7&outputCurrency=0x63a72806098Bd3D9520cC43356dD78afe5D386D9',
+    createdAt: 1629465789,
   },
   {
     id: 'pangolin-wavax-xava-eol',
@@ -3384,6 +4197,7 @@ export const avalanchePools = [
       'https://app.pangolin.exchange/#/add/AVAX/0x5947BB275c521040051D82396192181b413227A3',
     buyTokenUrl:
       'https://app.pangolin.exchange/#/swap?inputCurrency=0xb31f66aa3c1e785363f0875a1b74e27b85fd66c7&outputCurrency=0x5947BB275c521040051D82396192181b413227A3',
+    createdAt: 1629305419,
   },
   {
     id: 'pangolin-png-usdt.e-eol',
@@ -3419,6 +4233,7 @@ export const avalanchePools = [
       'https://app.pangolin.exchange/#/add/0x60781c2586d68229fde47564546784ab3faca982/0xc7198437980c041c805a1edcba50c1ce5db95118',
     buyTokenUrl:
       'https://app.pangolin.exchange/#/swap?inputCurrency=0xb31f66aa3c1e785363f0875a1b74e27b85fd66c7&outputCurrency=0xc7198437980c041c805A1EDcbA50c1Ce5db95118',
+    createdAt: 1629306156,
   },
   {
     id: 'pangolin-weth.e-png-eol',
@@ -3454,6 +4269,7 @@ export const avalanchePools = [
       'https://app.pangolin.exchange/#/add/AVAX/0xc7198437980c041c805A1EDcbA50c1Ce5db95118',
     buyTokenUrl:
       'https://app.pangolin.exchange/#/swap?inputCurrency=0xb31f66aa3c1e785363f0875a1b74e27b85fd66c7&outputCurrency=0xc7198437980c041c805A1EDcbA50c1Ce5db95118',
+    createdAt: 1629306038,
   },
   {
     id: 'pangolin-wavax-dai.e-eol',
@@ -3489,6 +4305,7 @@ export const avalanchePools = [
       'https://app.pangolin.exchange/#/add/AVAX/0xd586E7F844cEa2F87f50152665BCbc2C279D8d70',
     buyTokenUrl:
       'https://app.pangolin.exchange/#/swap?inputCurrency=0xb31f66aa3c1e785363f0875a1b74e27b85fd66c7&outputCurrency=0xd586E7F844cEa2F87f50152665BCbc2C279D8d70',
+    createdAt: 1629305758,
   },
   {
     id: 'pangolin-link.e-wavax-eol',
@@ -3524,6 +4341,7 @@ export const avalanchePools = [
       'https://app.pangolin.exchange/#/add/AVAX/0x5947BB275c521040051D82396192181b413227A3',
     buyTokenUrl:
       'https://app.pangolin.exchange/#/swap?inputCurrency=0xb31f66aa3c1e785363f0875a1b74e27b85fd66c7&outputCurrency=0x5947BB275c521040051D82396192181b413227A3',
+    createdAt: 1629305632,
   },
   {
     id: 'pangolin-weth.e-wavax-eol',
@@ -3559,6 +4377,7 @@ export const avalanchePools = [
       'https://app.pangolin.exchange/#/add/AVAX/0xc7198437980c041c805A1EDcbA50c1Ce5db95118',
     buyTokenUrl:
       'https://app.pangolin.exchange/#/swap?inputCurrency=0xb31f66aa3c1e785363f0875a1b74e27b85fd66c7&outputCurrency=0xc7198437980c041c805A1EDcbA50c1Ce5db95118',
+    createdAt: 1629305055,
   },
   {
     id: 'pangolin-wavax-usdt.e-eol',
@@ -3594,6 +4413,7 @@ export const avalanchePools = [
       'https://app.pangolin.exchange/#/add/AVAX/0xc7198437980c041c805A1EDcbA50c1Ce5db95118',
     buyTokenUrl:
       'https://app.pangolin.exchange/#/swap?inputCurrency=0xb31f66aa3c1e785363f0875a1b74e27b85fd66c7&outputCurrency=0xc7198437980c041c805A1EDcbA50c1Ce5db95118',
+    createdAt: 1629304913,
   },
   {
     id: 'pangolin-wbtc.e-wavax-eol',
@@ -3629,6 +4449,7 @@ export const avalanchePools = [
       'https://app.pangolin.exchange/#/add/AVAX/0x50b7545627a5162F82A992c33b87aDc75187B218',
     buyTokenUrl:
       'https://app.pangolin.exchange/#/swap?inputCurrency=0xb31f66aa3c1e785363f0875a1b74e27b85fd66c7&outputCurrency=0x50b7545627a5162F82A992c33b87aDc75187B218',
+    createdAt: 1629297701,
   },
   {
     id: 'png-bnb-avax-eol',
@@ -3664,6 +4485,7 @@ export const avalanchePools = [
       'https://app.pangolin.exchange/#/add/0xb31f66aa3c1e785363f0875a1b74e27b85fd66c7/0x264c1383EA520f73dd837F915ef3a732e204a493',
     buyTokenUrl:
       'https://app.pangolin.exchange/#/swap?inputCurrency=0xb31f66aa3c1e785363f0875a1b74e27b85fd66c7&outputCurrency=0x408D4cD0ADb7ceBd1F1A1C33A0Ba2098E1295bAB',
+    createdAt: 1626881663,
   },
   {
     id: 'gondola-usdt-zusdt-eol',
@@ -3689,6 +4511,7 @@ export const avalanchePools = [
     assets: ['zUSDT', 'USDT'],
     addLiquidityUrl: 'https://app.gondola.finance/#/deposit/usdt',
     buyTokenUrl: 'https://app.gondola.finance/#/swap/usdt',
+    createdAt: 1621080551,
   },
   {
     id: 'lyd-lyd-usdt-eol',
@@ -3716,6 +4539,7 @@ export const avalanchePools = [
       'https://www.lydia.finance/#/add/0x4c9b4e1ac6f24cde3660d5e4ef1ebf77c710c084/0xde3a24028580884448a5397872046a019649b084',
     buyTokenUrl:
       'https://exchange.lydia.finance/#/swap?inputCurrency=0x4c9b4e1ac6f24cde3660d5e4ef1ebf77c710c084&outputCurrency=0xde3a24028580884448a5397872046a019649b084',
+    createdAt: 1619706954,
   },
   {
     id: 'lyd-lyd-avax',
@@ -3742,9 +4566,10 @@ export const avalanchePools = [
       'https://www.lydia.finance/#/add/0x4c9b4e1ac6f24cde3660d5e4ef1ebf77c710c084/0xb31f66aa3c1e785363f0875a1b74e27b85fd66c7',
     buyTokenUrl:
       'https://exchange.lydia.finance/#/swap?inputCurrency=0x4c9b4e1ac6f24cde3660d5e4ef1ebf77c710c084&outputCurrency=0xb31f66aa3c1e785363f0875a1b74e27b85fd66c7',
+    createdAt: 1619706922,
   },
   {
-    id: 'olive-olive-avax',
+    id: 'olive-olive-avax-eol',
     logo: 'avax-pairs/OLIVE-AVAX.png',
     name: 'OLIVE-AVAX LP',
     token: 'OLIVE-AVAX LP',
@@ -3760,8 +4585,8 @@ export const avalanchePools = [
     oracle: 'lps',
     oracleId: 'olive-olive-avax',
     oraclePrice: 0,
-    depositsPaused: false,
-    status: 'active',
+    depositsPaused: true,
+    status: 'eol',
     platform: 'OliveSwap',
     assets: ['OLIVE', 'AVAX'],
     risks: [
@@ -3776,6 +4601,8 @@ export const avalanchePools = [
     addLiquidityUrl: 'https://avax.olive.cash/add/AVAX/0x617724974218A18769020A70162165A539c07E8a',
     buyTokenUrl:
       'https://avax.olive.cash/swap?inputCurrency=AVAX&outputCurrency=0x617724974218A18769020A70162165A539c07E8a',
+    createdAt: 1617865515,
+    retiredReason: 'tvl',
   },
   {
     id: 'olive-olive-usdt-eol',
@@ -3802,8 +4629,8 @@ export const avalanchePools = [
       'https://swap.olive.cash/#/add/0xde3A24028580884448a5397872046a019649b084/0x617724974218A18769020A70162165A539c07E8a',
     buyTokenUrl:
       'https://swap.olive.cash/#/swap?outputCurrency=0x617724974218A18769020A70162165A539c07E8a',
+    createdAt: 1617867390,
   },
-
   {
     id: 'snob-3pool-eol',
     logo: 'avax-pairs/SNOB3P.png',
@@ -3827,8 +4654,8 @@ export const avalanchePools = [
     platform: 'Other',
     assets: ['USDT', 'BUSD', 'DAI'],
     addLiquidityUrl: 'https://snowball.network/stablevault/',
+    createdAt: 1617723074,
   },
-
   {
     id: 'com-eth-avax-eol',
     logo: 'avax-pairs/ETH-AVAX.png',
@@ -3855,6 +4682,7 @@ export const avalanchePools = [
       'https://avadex.complus.exchange/#/add/AVAX/0xf20d962a6c8f70c731bd838a3a388D7d48fA6e15',
     buyTokenUrl:
       'https://avadex.complus.exchange/#/swap?inputCurrency=0xf20d962a6c8f70c731bd838a3a388D7d48fA6e15&outputCurrency=AVAX',
+    createdAt: 1616228400,
   },
   {
     id: 'com-png-avax-eol',
@@ -3881,8 +4709,8 @@ export const avalanchePools = [
       'https://avadex.complus.exchange/#/add/AVAX/0x60781C2586D68229fde47564546784ab3fACA982',
     buyTokenUrl:
       'https://avadex.complus.exchange/#/swap?inputCurrency=0x60781C2586D68229fde47564546784ab3fACA982&outputCurrency=AVAX',
+    createdAt: 1616228454,
   },
-
   {
     id: 'snob-snob-avax-eol',
     logo: 'avax-pairs/SNOB-AVAX.svg',
@@ -3909,8 +4737,8 @@ export const avalanchePools = [
       'https://app.pangolin.exchange/#/add/AVAX/0xC38f41A296A4493Ff429F1238e030924A1542e50',
     buyTokenUrl:
       'https://app.pangolin.exchange/#/swap?inputCurrency=0xb31f66aa3c1e785363f0875a1b74e27b85fd66c7&outputCurrency=0xC38f41A296A4493Ff429F1238e030924A1542e50',
+    createdAt: 1616082970,
   },
-
   {
     id: 'com-com-avax-eol',
     logo: 'avax-pairs/COM-AVAX.png',
@@ -3937,8 +4765,8 @@ export const avalanchePools = [
       'https://avadex.complus.exchange/#/add/AVAX/0x3711c397B6c8F7173391361e27e67d72F252cAad',
     buyTokenUrl:
       'https://avadex.complus.exchange/#/swap?inputCurrency=0x3711c397B6c8F7173391361e27e67d72F252cAad&outputCurrency=AVAX',
+    createdAt: 1616082096,
   },
-
   {
     id: 'png-sushi-avax-eol',
     name: 'SUSHI-AVAX LP',
@@ -3964,8 +4792,8 @@ export const avalanchePools = [
       'https://app.pangolin.exchange/#/add/AVAX/0x39cf1BD5f15fb22eC3D9Ff86b0727aFc203427cc',
     buyTokenUrl:
       'https://app.pangolin.exchange/#/swap?inputCurrency=0xb31f66aa3c1e785363f0875a1b74e27b85fd66c7&outputCurrency=0x39cf1BD5f15fb22eC3D9Ff86b0727aFc203427cc',
+    createdAt: 1615919277,
   },
-
   {
     id: 'png-wbtc-avax-eol',
     name: 'WBTC-AVAX LP',
@@ -3991,8 +4819,8 @@ export const avalanchePools = [
       'https://app.pangolin.exchange/#/add/AVAX/0x408D4cD0ADb7ceBd1F1A1C33A0Ba2098E1295bAB',
     buyTokenUrl:
       'https://app.pangolin.exchange/#/swap?inputCurrency=0xb31f66aa3c1e785363f0875a1b74e27b85fd66c7&outputCurrency=0x408D4cD0ADb7ceBd1F1A1C33A0Ba2098E1295bAB',
+    createdAt: 1615917865,
   },
-
   {
     id: 'png-link-avax-eol',
     name: 'LINK-AVAX LP',
@@ -4018,8 +4846,8 @@ export const avalanchePools = [
       'https://app.pangolin.exchange/#/add/AVAX/0xB3fe5374F67D7a22886A0eE082b2E2f9d2651651',
     buyTokenUrl:
       'https://app.pangolin.exchange/#/swap?inputCurrency=0xb31f66aa3c1e785363f0875a1b74e27b85fd66c7&outputCurrency=0xB3fe5374F67D7a22886A0eE082b2E2f9d2651651',
+    createdAt: 1615919058,
   },
-
   {
     id: 'png-uni-avax-eol',
     name: 'UNI-AVAX LP',
@@ -4045,8 +4873,8 @@ export const avalanchePools = [
       'https://app.pangolin.exchange/#/add/AVAX/0xf39f9671906d8630812f9d9863bBEf5D523c84Ab',
     buyTokenUrl:
       'https://app.pangolin.exchange/#/swap?inputCurrency=0xb31f66aa3c1e785363f0875a1b74e27b85fd66c7&outputCurrency=0xf39f9671906d8630812f9d9863bBEf5D523c84Ab',
+    createdAt: 1615919484,
   },
-
   {
     id: 'png-usdt-png-eol',
     name: 'USDT-PNG LP',
@@ -4072,8 +4900,8 @@ export const avalanchePools = [
       'https://app.pangolin.exchange/#/add/0x60781C2586D68229fde47564546784ab3fACA982/0xde3A24028580884448a5397872046a019649b084',
     buyTokenUrl:
       'https://app.pangolin.exchange/#/swap?inputCurrency=0xb31f66aa3c1e785363f0875a1b74e27b85fd66c7&outputCurrency=0xde3A24028580884448a5397872046a019649b084',
+    createdAt: 1615919670,
   },
-
   {
     id: 'png-eth-avax-eol',
     name: 'ETH-AVAX LP',
@@ -4099,8 +4927,8 @@ export const avalanchePools = [
       'https://app.pangolin.exchange/#/add/AVAX/0xf20d962a6c8f70c731bd838a3a388D7d48fA6e15',
     buyTokenUrl:
       'https://app.pangolin.exchange/#/swap?inputCurrency=0xb31f66aa3c1e785363f0875a1b74e27b85fd66c7&outputCurrency=0xf20d962a6c8f70c731bd838a3a388D7d48fA6e15',
+    createdAt: 1615742564,
   },
-
   {
     id: 'png-usdt-avax-eol',
     name: 'USDT-AVAX LP',
@@ -4126,8 +4954,8 @@ export const avalanchePools = [
       'https://app.pangolin.exchange/#/add/AVAX/0xde3A24028580884448a5397872046a019649b084',
     buyTokenUrl:
       'https://app.pangolin.exchange/#/swap?inputCurrency=0xb31f66aa3c1e785363f0875a1b74e27b85fd66c7&outputCurrency=0xde3A24028580884448a5397872046a019649b084',
+    createdAt: 1615742703,
   },
-
   {
     id: 'png-png-avax-eol',
     name: 'PNG-AVAX LP',
@@ -4162,5 +4990,6 @@ export const avalanchePools = [
       'https://app.pangolin.exchange/#/add/AVAX/0x60781C2586D68229fde47564546784ab3fACA982',
     buyTokenUrl:
       'https://app.pangolin.exchange/#/swap?inputCurrency=0xb31f66aa3c1e785363f0875a1b74e27b85fd66c7&outputCurrency=0x60781C2586D68229fde47564546784ab3fACA982',
+    createdAt: 1615742387,
   },
 ];
