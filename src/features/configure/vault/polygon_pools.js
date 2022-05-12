@@ -2632,7 +2632,6 @@ export const polygonPools = [
     risks: [
       'COMPLEXITY_LOW',
       'BATTLE_TESTED',
-      'ALGO_STABLE',
       'MCAP_MICRO',
       'PLATFORM_ESTABLISHED',
       'AUDIT',
@@ -2668,7 +2667,6 @@ export const polygonPools = [
     risks: [
       'COMPLEXITY_LOW',
       'BATTLE_TESTED',
-      'ALGO_STABLE',
       'MCAP_MICRO',
       'PLATFORM_ESTABLISHED',
       'AUDIT',
@@ -2705,7 +2703,6 @@ export const polygonPools = [
     risks: [
       'COMPLEXITY_LOW',
       'BATTLE_TESTED',
-      'ALGO_STABLE',
       'MCAP_MICRO',
       'PLATFORM_ESTABLISHED',
       'AUDIT',
@@ -4072,7 +4069,6 @@ export const polygonPools = [
     risks: [
       'COMPLEXITY_LOW',
       'BATTLE_TESTED',
-      'ALGO_STABLE',
       'MCAP_MICRO',
       'PLATFORM_ESTABLISHED',
       'AUDIT',
