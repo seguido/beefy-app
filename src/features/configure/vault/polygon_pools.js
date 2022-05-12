@@ -138,8 +138,7 @@ export const polygonPools = [
     ],
     stratType: 'SingleStake',
     withdrawalFee: '0%',
-    buyTokenUrl:
-      'https://beta.quickswap.exchange/#/convert',
+    buyTokenUrl: 'https://beta.quickswap.exchange/#/convert',
     createdAt: 1652179476,
   },
   {
@@ -1104,6 +1103,7 @@ export const polygonPools = [
       'PLATFORM_ESTABLISHED',
       'AUDIT',
       'CONTRACTS_VERIFIED',
+      'ALGO_STABLE',
     ],
     stratType: 'StratLP',
     withdrawalFee: '0%',
@@ -3546,11 +3546,11 @@ export const polygonPools = [
     risks: [
       'COMPLEXITY_LOW',
       'BATTLE_TESTED',
-      'IL_LOW',
       'MCAP_LARGE',
       'PLATFORM_ESTABLISHED',
       'AUDIT',
       'CONTRACTS_VERIFIED',
+      'ALGO_STABLE',
     ],
     stratType: 'StratLP',
     addLiquidityUrl:
